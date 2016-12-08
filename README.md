@@ -1,13 +1,20 @@
 # WTOpenSource
-This repo collects in one place references to all my open source contributions.
+This repo collects in one place references to all my open-source contributions.
+
+## General-purpose libraries
+
+##### (2016) [WTSimpleStatistics](https://github.com/wltrup/Swift-WTSimpleStatistics)
+`WTSimpleStatistics` provides support for finding the sample size, total, miminmum, maximum,
+average, variance and standard deviation of a group of measurements. It also lets you perform
+linear regression on one-dimensional data, with or without uncertainties in the dependent quantity.
 
 ## iOS UI contributions
 
 ##### (2015) [Circular Progress View](https://github.com/wltrup/iOS-Swift-Circular-Progress-View) - **DEPRECATED**
 A fully customisable `Swift` class for a progress view similar to what the _Apple Watch_ has.
+This is probably still useful as a learning reference but not for actual use in an app.
 
 ## Swift Extensions
-All my Swift extension libraries.
 
 ##### (2016) [WTCoreGraphicsExtensions](https://github.com/wltrup/Swift-WTCoreGraphicsExtensions)
 A collection of useful additions to `CGGradient`, `CGPoint` and, especially, `CGVector`.
