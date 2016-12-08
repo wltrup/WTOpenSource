@@ -4,7 +4,7 @@ This repo collects in one place references to all my open-source contributions.
 ## General-purpose libraries
 
 ##### (2016) [WTSimpleStatistics](https://github.com/wltrup/Swift-WTSimpleStatistics)
-`WTSimpleStatistics` provides support for finding the sample size, total, miminmum, maximum,
+`WTSimpleStatistics` provides support for finding the sample size, total, minimum, maximum,
 average, variance and standard deviation of a group of measurements. It also lets you perform
 linear regression on one-dimensional data, with or without uncertainties in the dependent quantity.
 
