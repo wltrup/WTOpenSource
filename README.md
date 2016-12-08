@@ -17,7 +17,8 @@ This is probably still useful as a learning reference but not for actual use in 
 ## Swift Extensions
 
 ##### (2016) [WTCoreGraphicsExtensions](https://github.com/wltrup/Swift-WTCoreGraphicsExtensions) **1.0.4**
-A collection of useful additions to `CGGradient`, `CGPoint` and, especially, `CGVector`.
+A collection of useful additions to `CGGradient`, `CGPoint` and, especially, `CGVector`. If you write 2d games
+using `CGVector`, you'll definitely love this library.
 
 ##### (2016) [WTUIColorExtensions](https://github.com/wltrup/iOS-Swift-WTUIColorExtensions) **1.0.2**
 An extension to `UIColor` adding the ability to generate pseudo-random color instances plus some other goodies.
