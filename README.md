@@ -9,6 +9,8 @@ and standard deviation of a group of measurements. It also lets you perform line
 on one-dimensional data, with or without uncertainties in the dependent quantity, with the option
 to maintain a history of all observations as snapshots.
 
+Note that **version 1.0.1** has been **deprecated**.
+
 ## iOS demo apps
 
 ##### (2016) [WTSimpleStatistics demo app](https://github.com/wltrup/iOS-Swift-WTSimpleStatisticsDemo)
