@@ -11,7 +11,7 @@ to maintain a history of all observations as snapshots.
 
 ## iOS demo apps
 
-##### (2016) [WTSimpleStatistics demo app](https://github.com/wltrup/iOS-Swift-WTSimpleStatisticsDemo) - **DEPRECATED**
+##### (2016) [WTSimpleStatistics demo app](https://github.com/wltrup/iOS-Swift-WTSimpleStatisticsDemo)
 An app showing the `LinearRegression` class from
 [`WTSimpleStatistics`](https://github.com/wltrup/Swift-WTSimpleStatistics), in its full glory.
 
