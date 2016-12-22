@@ -3,19 +3,15 @@ This repo collects in one place references to all my open-source contributions.
 
 ## General-purpose libraries
 
-##### (2016) [WTSimpleStatistics](https://github.com/wltrup/Swift-WTSimpleStatistics) **2.2.0**
-`WTSimpleStatistics` provides support for finding the sample size, total, average, variance
-and standard deviation of a group of measurements. It also lets you perform linear regression
-on one-dimensional data, with or without uncertainties in the dependent quantity, with the option
-to maintain a history of all observations as snapshots.
-
-Note that **version 1.0.1** has been **deprecated**. Use **2.2.0** instead!
+##### (2016) [WTOnlineLinearRegression](https://github.com/wltrup/Swift-WTOnlineLinearRegression)
+`WTOnlineLinearRegression` lets you perform linear regression on one-dimensional data, with or without
+variances in the dependent quantity, with the option to maintain a history of all observations as full
+snapshots of the results of the regression at the time the items were added to, or removed from, the data set.
 
 ## iOS demo apps
 
-##### (2016) [WTSimpleStatistics demo app](https://github.com/wltrup/iOS-Swift-WTSimpleStatisticsDemo)
-An app showing the `LinearRegression` class from
-[`WTSimpleStatistics`](https://github.com/wltrup/Swift-WTSimpleStatistics), in its full glory.
+##### (2016) [WTOnlineLinearRegression demo app](https://github.com/wltrup/iOS-Swift-WTOnlineLinearRegressionDemo)
+An app showing the [`WTOnlineLinearRegression`](https://github.com/wltrup/Swift-WTOnlineLinearRegression) library in its full glory.
 
 ## iOS UI contributions
 
