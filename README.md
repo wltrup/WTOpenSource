@@ -13,7 +13,7 @@ snapshots of the results of the regression at the time the items were added to, 
 ##### (2016) [WTOnlineLinearRegression demo app](https://github.com/wltrup/iOS-Swift-WTOnlineLinearRegressionDemo)
 An app showing the [`WTOnlineLinearRegression`](https://github.com/wltrup/Swift-WTOnlineLinearRegression) library.
 
-![demo](https://github.com/wltrup/WTOpenSource/blob/master/LinRegDemo.gif)
+![demo](https://github.com/wltrup/WTOpenSource/blob/master/LinearRegressionDemo.gif)
 
 ##### (2016) [Kaleidoscope](https://github.com/wltrup/iOS-Swift-Kaleidoscope)
 A simulation of a [**kaleidoscope**](https://en.wikipedia.org/wiki/Kaleidoscope), using `UIKit Dynamics`. Something I wrote in a few days when I was bored.
