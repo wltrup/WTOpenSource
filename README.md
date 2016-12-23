@@ -18,8 +18,7 @@ An app showing the [`WTOnlineLinearRegression`](https://github.com/wltrup/Swift-
 ##### (2016) [Kaleidoscope](https://github.com/wltrup/iOS-Swift-Kaleidoscope)
 A simulation of a [**kaleidoscope**](https://en.wikipedia.org/wiki/Kaleidoscope), using `UIKit Dynamics`. Something I wrote in a few days when I was bored.
 
-![demo 1](https://github.com/wltrup/WTOpenSource/blob/master/KalDemo1.gif)
-![demo 2](https://github.com/wltrup/WTOpenSource/blob/master/KalDemo2.gif)
+![demo](https://github.com/wltrup/WTOpenSource/blob/master/KalDemo.gif)
 
 ## iOS UI contributions
 
