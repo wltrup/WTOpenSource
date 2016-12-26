@@ -6,7 +6,7 @@ This repo collects in one place references to all my open-source contributions.
 ##### (2016) [Typed Notifications](https://github.com/wltrup/Swift-Typed-Notifications)
 Not really a library on its own but merely an idea or suggestion on how to handle notifications, especially custom ones, in a more type-safe way.
 
-##### (2016) [WTOnlineLinearRegression](https://github.com/wltrup/Swift-WTOnlineLinearRegression)
+##### (2016) [WTOnlineLinearRegression](https://github.com/wltrup/Swift-WTOnlineLinearRegression) **1.0.3**
 `WTOnlineLinearRegression` lets you perform linear regression on one-dimensional data, with or without
 variances in the dependent quantity, with the option to maintain a history of all observations as full
 snapshots of the results of the regression at the time the items were added to, or removed from, the data set.
