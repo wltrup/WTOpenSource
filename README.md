@@ -31,12 +31,15 @@ This is probably still useful as a learning reference but not for actual use in 
 
 ## Swift Extensions
 
+##### (2016-2017) [WTUIColorExtensions](https://github.com/wltrup/iOS-Swift-WTUIColorExtensions) **1.1.0**
+An extension to `UIColor` adding the ability to generate pseudo-random color instances plus some other goodies. New in **1.1.0** is the support for:
+- finding the hexadecimal representation of an RGB color
+- finding the approximate luminance of a color
+- finding the most contrasting color to a given color
+
 ##### (2016) [WTCoreGraphicsExtensions](https://github.com/wltrup/Swift-WTCoreGraphicsExtensions) **1.0.4**
 A collection of useful additions to `CGGradient`, `CGPoint` and, especially, `CGVector`. If you write 2d games
 using `CGVector`, you'll definitely love this library.
-
-##### (2016) [WTUIColorExtensions](https://github.com/wltrup/iOS-Swift-WTUIColorExtensions) **1.0.2**
-An extension to `UIColor` adding the ability to generate pseudo-random color instances plus some other goodies.
 
 ##### (2016) [WTBinaryFloatingPointExtensions](https://github.com/wltrup/Swift-WTBinaryFloatingPointExtensions) **1.0.2**
 An extension to all types conforming to the `BinaryFloatingPoint` protocol, adding the ability to generate pseudo-random values and to convert between degrees and radians.
