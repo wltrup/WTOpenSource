@@ -31,7 +31,7 @@ This is probably still useful as a learning reference but not for actual use in 
 
 ## Swift Extensions
 
-##### (2016-2017) [WTUIColorExtensions](https://github.com/wltrup/iOS-Swift-WTUIColorExtensions) **1.1.0**
+##### (2016-2017) [WTUIColorExtensions](https://github.com/wltrup/iOS-Swift-WTUIColorExtensions) **1.1.1**
 An extension to `UIColor` adding the ability to generate pseudo-random color instances plus some other goodies. New in **1.1.0** is the support for:
 - finding the hexadecimal representation of an RGB color
 - finding the approximate luminance of a color
