@@ -3,7 +3,7 @@ This repo collects in one place references to all my open-source contributions t
 
 ## General-purpose libraries
 
-##### (2017) [WTAutoLayoutExtensions](https://github.com/wltrup/iOS-Swift-WTAutoLayoutExtensions) **1.0.0**
+##### (2017) [WTAutoLayoutExtensions](https://github.com/wltrup/iOS-Swift-WTAutoLayoutExtensions) **1.0.2**
 Extensions to `UIView` and `UILayoutGuide` to make it simpler and more natural to use layout guides, layout anchors, and the rest of the auto-layout machinery, with a consistent API and very little code.
 
 ##### (2016-2017) [WTUIColorExtensions](https://github.com/wltrup/iOS-Swift-WTUIColorExtensions) **1.1.1**
