@@ -3,6 +3,9 @@ This repo collects in one place references to all my open-source contributions t
 
 ## General-purpose libraries
 
+##### (2017) [WTUniquePrimitiveType](https://github.com/wltrup/Swift-WTUniquePrimitiveType) **1.0.0**
+A library to allow you to create distinct types based on the same primitive value so the compiler will warn you if, for example, you accidentally confuse the user name with the user password or the user email address, since they're all based on the same primitive type, namely, `String`.
+
 ##### (2017) [WTAutoLayoutExtensions](https://github.com/wltrup/iOS-Swift-WTAutoLayoutExtensions) **1.0.2**
 Extensions to `UIView` and `UILayoutGuide` to make it simpler and more natural to use layout guides, layout anchors, and the rest of the auto-layout machinery, with a consistent API and very little code.
 
