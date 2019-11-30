@@ -19,20 +19,6 @@ as part of a much bigger project we're working on at [Babylon](https://github.co
 
 ---
 
-##### (2017) [WTUniquePrimitiveType](https://github.com/wltrup/Swift-WTUniquePrimitiveType) - **DEPRECATED**
-[![CI Status](http://img.shields.io/travis/wltrup/Swift-WTUniquePrimitiveType.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTUniquePrimitiveType)
-[![Version](https://img.shields.io/cocoapods/v/WTUniquePrimitiveType.svg?style=flat)](http://cocoapods.org/pods/WTUniquePrimitiveType)
-[![Platform](https://img.shields.io/cocoapods/p/WTUniquePrimitiveType.svg?style=flat)](http://cocoapods.org/pods/WTUniquePrimitiveType)
-[![Swift](https://img.shields.io/badge/Swift-3.1-orange.svg)](https://swift.org)
-[![Xcode](https://img.shields.io/badge/Xcode-8.3-blue.svg)](https://developer.apple.com/xcode)
-[![License](https://img.shields.io/cocoapods/l/WTUniquePrimitiveType.svg?style=flat)](http://cocoapods.org/pods/WTUniquePrimitiveType)
-
-A library to allow you to create distinct types based on the same primitive value so the compiler will warn you if, for example, you accidentally confuse the user name with the user password or the user email address, since they're all based on the same primitive type, namely, `String`.
-
-(2019.11.30) Please note that I've deprecated this project. A much better approach - [Tagged](https://github.com/pointfreeco/swift-tagged) - was devised by Brandon Williams and Stephen Celis, the folks at [pointfree](https://www.pointfree.co). You can watch the episode on it [here](https://www.pointfree.co/episodes/ep12-tagged).
-
----
-
 ##### (2017) [WTAutoLayoutExtensions](https://github.com/wltrup/iOS-Swift-WTAutoLayoutExtensions)
 [![CI Status](http://img.shields.io/travis/wltrup/iOS-Swift-WTAutoLayoutExtensions.svg?style=flat)](https://travis-ci.org/iOS-Swift-wltrup/WTAutoLayoutExtensions)
 [![Version](https://img.shields.io/cocoapods/v/WTAutoLayoutExtensions.svg?style=flat)](http://cocoapods.org/pods/WTAutoLayoutExtensions)
@@ -86,6 +72,32 @@ snapshots of the results of the regression at the time the items were added to, 
 A collection of useful additions to `CGGradient`, `CGPoint` and, especially, `CGVector`. If you write 2d games
 using `CGVector`, you'll definitely love this library.
 
+## iOS demo apps
+
+##### (2016) [WTOnlineLinearRegression demo app](https://github.com/wltrup/iOS-Swift-WTOnlineLinearRegressionDemo)
+An app showing the [`WTOnlineLinearRegression`](https://github.com/wltrup/Swift-WTOnlineLinearRegression) library.
+
+![demo](https://github.com/wltrup/WTOpenSource/blob/master/LinearRegressionDemo.gif)
+
+##### (2016) [Kaleidoscope](https://github.com/wltrup/iOS-Swift-Kaleidoscope)
+A simulation of a [**kaleidoscope**](https://en.wikipedia.org/wiki/Kaleidoscope), using `UIKit Dynamics`. Something I wrote in a few days when I was bored.
+
+![demo](https://github.com/wltrup/WTOpenSource/blob/master/KalDemo.gif)
+
+## Deprecated projects
+
+##### (2017) [WTUniquePrimitiveType](https://github.com/wltrup/Swift-WTUniquePrimitiveType) - **DEPRECATED**
+[![CI Status](http://img.shields.io/travis/wltrup/Swift-WTUniquePrimitiveType.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTUniquePrimitiveType)
+[![Version](https://img.shields.io/cocoapods/v/WTUniquePrimitiveType.svg?style=flat)](http://cocoapods.org/pods/WTUniquePrimitiveType)
+[![Platform](https://img.shields.io/cocoapods/p/WTUniquePrimitiveType.svg?style=flat)](http://cocoapods.org/pods/WTUniquePrimitiveType)
+[![Swift](https://img.shields.io/badge/Swift-3.1-orange.svg)](https://swift.org)
+[![Xcode](https://img.shields.io/badge/Xcode-8.3-blue.svg)](https://developer.apple.com/xcode)
+[![License](https://img.shields.io/cocoapods/l/WTUniquePrimitiveType.svg?style=flat)](http://cocoapods.org/pods/WTUniquePrimitiveType)
+
+A library to allow you to create distinct types based on the same primitive value so the compiler will warn you if, for example, you accidentally confuse the user name with the user password or the user email address, since they're all based on the same primitive type, namely, `String`.
+
+(2019.11.30) Please note that I've deprecated this project. A much better approach - [Tagged](https://github.com/pointfreeco/swift-tagged) - was devised by Brandon Williams and Stephen Celis, the folks at [pointfree](https://www.pointfree.co). You can watch the episode on it [here](https://www.pointfree.co/episodes/ep12-tagged).
+
 ---
 
 ##### (2016) [WTBinaryFloatingPointExtensions](https://github.com/wltrup/Swift-WTBinaryFloatingPointExtensions) - **DEPRECATED**
@@ -129,21 +141,8 @@ A `Swift` collection of useful extensions to `CGFloat`, `CGPoint`, and `CGVector
 
 This library has been deprecated and replaced by separate libraries compatible with Swift 3.0. Please refer to the more recent ones listed above.
 
-## iOS demo apps
-
-##### (2016) [WTOnlineLinearRegression demo app](https://github.com/wltrup/iOS-Swift-WTOnlineLinearRegressionDemo)
-An app showing the [`WTOnlineLinearRegression`](https://github.com/wltrup/Swift-WTOnlineLinearRegression) library.
-
-![demo](https://github.com/wltrup/WTOpenSource/blob/master/LinearRegressionDemo.gif)
-
-##### (2016) [Kaleidoscope](https://github.com/wltrup/iOS-Swift-Kaleidoscope)
-A simulation of a [**kaleidoscope**](https://en.wikipedia.org/wiki/Kaleidoscope), using `UIKit Dynamics`. Something I wrote in a few days when I was bored.
-
-![demo](https://github.com/wltrup/WTOpenSource/blob/master/KalDemo.gif)
-
-## iOS UI contributions
+---
 
 ##### (2015) [Circular Progress View](https://github.com/wltrup/iOS-Swift-Circular-Progress-View) - **DEPRECATED**
 A fully customisable `Swift` class for a progress view similar to what the _Apple Watch_ has.
 This is probably still useful as a learning reference but not for actual use in an app.
-
