@@ -15,7 +15,7 @@ This repo collects in one place references to all my open-source contributions t
 `DrawerKit` lets an arbitrary view controller modally present another arbitrary view controller in a manner similar to the way the Maps app works. I wrote this
 as part of a much bigger project we're working on at [Babylon](https://github.com/Babylonpartners).
 
-Please note that I am no longer actively involved with this project.
+(2019.11.30) Please note that I am no longer actively involved with this project.
 
 ---
 
@@ -29,7 +29,7 @@ Please note that I am no longer actively involved with this project.
 
 A library to allow you to create distinct types based on the same primitive value so the compiler will warn you if, for example, you accidentally confuse the user name with the user password or the user email address, since they're all based on the same primitive type, namely, `String`.
 
-(12-2019) Please note that I've deprecated this project. A much better approach - [Tagged](https://github.com/pointfreeco/swift-tagged) - was devised by Brandon Williams and Stephen Celis, the folks at [pointfree](https://www.pointfree.co). You can watch the episode on it [here](https://www.pointfree.co/episodes/ep12-tagged).
+(2019.11.30) Please note that I've deprecated this project. A much better approach - [Tagged](https://github.com/pointfreeco/swift-tagged) - was devised by Brandon Williams and Stephen Celis, the folks at [pointfree](https://www.pointfree.co). You can watch the episode on it [here](https://www.pointfree.co/episodes/ep12-tagged).
 
 ---
 
@@ -88,7 +88,7 @@ using `CGVector`, you'll definitely love this library.
 
 ---
 
-##### (2016) [WTBinaryFloatingPointExtensions](https://github.com/wltrup/Swift-WTBinaryFloatingPointExtensions)
+##### (2016) [WTBinaryFloatingPointExtensions](https://github.com/wltrup/Swift-WTBinaryFloatingPointExtensions) - **DEPRECATED**
 [![CI Status](http://img.shields.io/travis/wltrup/Swift-WTBinaryFloatingPointExtensions.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTBinaryFloatingPointExtensions)
 [![Version](https://img.shields.io/cocoapods/v/WTBinaryFloatingPointExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBinaryFloatingPointExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTBinaryFloatingPointExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBinaryFloatingPointExtensions)
@@ -96,9 +96,11 @@ using `CGVector`, you'll definitely love this library.
 
 An extension to all types conforming to the `BinaryFloatingPoint` protocol, adding the ability to generate pseudo-random values and to convert between degrees and radians.
 
+2019.11.30: This project has been **deprecated** since the Swift Standard Library now has (part of) the functionality that this library provides. The remaining functionality - the trigonometry-associated one - isn't so hard to implement on a case-by-case basis.
+
 ---
 
-##### (2016) [WTIntExtensions](https://github.com/wltrup/Swift-WTIntExtensions)
+##### (2016) [WTIntExtensions](https://github.com/wltrup/Swift-WTIntExtensions) - **DEPRECATED**
 [![CI Status](http://img.shields.io/travis/wltrup/Swift-WTIntExtensions.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTIntExtensions)
 [![Version](https://img.shields.io/cocoapods/v/WTIntExtensions.svg?style=flat)](http://cocoapods.org/pods/WTIntExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTIntExtensions.svg?style=flat)](http://cocoapods.org/pods/WTIntExtensions)
@@ -106,15 +108,19 @@ An extension to all types conforming to the `BinaryFloatingPoint` protocol, addi
 
 An extension to `Int` to generate uniformly-distributed pseudo-random integers.
 
+2019.11.30: This project has been **deprecated** since the Swift Standard Library now has precisely the functionality that this library provides.
+
 ---
 
-##### (2016) [WTBoolExtensions](https://github.com/wltrup/Swift-WTBoolExtensions)
+##### (2016) [WTBoolExtensions](https://github.com/wltrup/Swift-WTBoolExtensions) - **DEPRECATED**
 [![CI Status](http://img.shields.io/travis/wltrup/Swift-WTBoolExtensions.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTBoolExtensions)
 [![Version](https://img.shields.io/cocoapods/v/WTBoolExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBoolExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTBoolExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBoolExtensions)
 [![License](https://img.shields.io/cocoapods/l/WTBoolExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBoolExtensions)
 
 An extension to `Bool` adding a method to generate uniformly-distributed pseudo-random booleans.
+
+2019.11.30: This project has been **deprecated** since the Swift Standard Library now has precisely the functionality that this library provides.
 
 ---
 
