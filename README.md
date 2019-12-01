@@ -15,7 +15,7 @@ This repo collects in one place references to all my open-source contributions t
 `DrawerKit` lets an arbitrary view controller modally present another arbitrary view controller in a manner similar to the way the Maps app works. I wrote this
 as part of a much bigger project we're working on at [Babylon](https://github.com/Babylonpartners).
 
-(2019.11.30) Please note that I am no longer actively involved with this project.
+(2019) Please note that I am no longer actively involved with this project.
 
 ---
 
