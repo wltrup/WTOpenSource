@@ -4,7 +4,6 @@ This repo collects in one place references to all my open-source contributions t
 ## General-purpose libraries
 
 ##### (2017) [DrawerKit](https://github.com/Babylonpartners/DrawerKit)
-[![circleci](https://circleci.com/gh/Babylonpartners/DrawerKit/tree/master.svg?style=svg)](https://circleci.com)
 [![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Version](https://img.shields.io/cocoapods/v/DrawerKit.svg?style=flat)](http://cocoapods.org/pods/DrawerKit)
 [![Platform](https://img.shields.io/cocoapods/p/DrawerKit.svg?style=flat)](http://cocoapods.org/pods/DrawerKit)
