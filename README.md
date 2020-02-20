@@ -3,6 +3,18 @@ This repo collects in one place references to all my open-source contributions t
 
 ## General-purpose libraries
 
+##### (2020) [Assets](https://github.com/wltrup/Assets) and [AssetsPre13](https://github.com/wltrup/AssetsPre13)
+
+`Assets` is an iOS framework that makes concrete use of [AssetCatalogAware](https://github.com/wltrup/AssetCatalogAware) to provide a self-contained collection of assets and easy access to them. UIKit and SwiftUI example projects are included. The *pre13* variant supports legacy systems with versions below 13.0.
+
+---
+
+##### (2020) [AssetCatalogAware](https://github.com/wltrup/AssetCatalogAware) and [AssetCatalogAwarePre13](https://github.com/wltrup/AssetCatalogAwarePre13)
+
+`AssetCatalogAware` is a Swift Package Manager package for iOS defining a collection of protocols and associated protocol extensions to access various kinds of assets, such as colors, images, strings, and fonts, in a type-safe manner. The *pre13* variant supports legacy systems with versions below 13.0.
+
+---
+
 ##### (2017) [DrawerKit](https://github.com/Babylonpartners/DrawerKit)
 [![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Version](https://img.shields.io/cocoapods/v/DrawerKit.svg?style=flat)](http://cocoapods.org/pods/DrawerKit)
