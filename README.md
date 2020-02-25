@@ -3,33 +3,70 @@ This repo collects in one place references to all my open-source contributions t
 
 ## General-purpose libraries
 
-##### (2020)-(**Foundation**) [Either](https://github.com/wltrup/Either)
+##### (2020)-(**Other**) [Either](https://github.com/wltrup/Either)
+![](https://img.shields.io/badge/platforms-iOS%2011%20%7C%20tvOS%2011%20%7C%20watchOS%205%20%7C%20macOS%2010.14-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/either)
+![GitHub](https://img.shields.io/github/license/wltrup/either)
 
-**Either** is a Swift Package Manager package for iOS 11.0 and above, tvOS 11.0 and above, watchOS 5.0 and above, macOS 10.14 and above, under Swift 5.0 and above, implementing a simple `Either` type, with a few built-in and useful protocol conformances.
+**Either** is a Swift Package Manager package for iOS/tvOS (11.0 and above), watchOS (5.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  implementing a simple `Either` type, with a few built-in and useful properties and protocol conformances.
 
 ---
 
 ##### (2020)-(**UI**) [UIViewPreview](https://github.com/wltrup/UIViewPreview)
+![](https://img.shields.io/badge/platforms-iOS%2013%20%7C%20tvOS%2013%20%7C%20watchOS%206%20%7C%20macOS%2010.15-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/UIViewPreview)
+![GitHub](https://img.shields.io/github/license/wltrup/UIViewPreview)
 
-`UIViewPreview` is a Swift Package Manager package for iOS 13.0 and above, tvOS 13.0 and above, watchOS 6.0 and above, and macOS 10.15 and above, that enables `UIKit` development on *macOS Catalina* to take advantage of `SwiftUI` previews in Xcode 11 and above. It's entirely *not* my idea but, rather, just a wrapper for the [code written by matt, of NSHipster fame](https://nshipster.com/swiftui-previews/).
+`UIViewPreview` is a Swift Package Manager package enabling `UIKit` development on *macOS Catalina* to take advantage of `SwiftUI` previews in Xcode 11 and above. It's entirely *not* my idea but, rather, just a wrapper for the [code written by matt, of NSHipster fame](https://nshipster.com/swiftui-previews/).
 
 ---
 
 ##### (2020)-(**UI**) [ColorExtensions](https://github.com/wltrup/ColorExtensions)
+![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%205-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/ColorExtensions)
+![GitHub](https://img.shields.io/github/license/wltrup/ColorExtensions)
 
-`ColorExtensions` is a Swift Package Manager package for iOS 10.0 and above, iPadOS 10.0 and above, and watchOS 5.0 and above providing a variety of useful extensions to UIColor.
+`ColorExtensions` is a Swift Package Manager package for iOS/tvOS (10.0 and above) and watchOS (5.0 and above) providing a variety of useful extensions to `UIColor`.
 
 ---
 
 ##### (2020)-(**UI**) [Assets](https://github.com/wltrup/Assets) and [AssetsPre13](https://github.com/wltrup/AssetsPre13)
+![](https://img.shields.io/badge/platforms-iOS%2013-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/Assets)
+![GitHub](https://img.shields.io/github/license/wltrup/Assets)
 
-`Assets` is an iOS framework that makes concrete use of [AssetCatalogAware](https://github.com/wltrup/AssetCatalogAware) to provide a self-contained collection of assets and easy access to them. UIKit and SwiftUI example projects are included. The *pre13* variant supports legacy systems with versions below 13.0.
+![](https://img.shields.io/badge/platforms-iOS%2011-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/AssetsPre13)
+![GitHub](https://img.shields.io/github/license/wltrup/AssetsPre13)
+
+`Assets` is an iOS framework that makes concrete use of [AssetCatalogAware](https://github.com/wltrup/AssetCatalogAware) to provide a self-contained collection of assets and easy access to them. UIKit and SwiftUI example projects are included. The *pre13* variant supports legacy systems with iOS versions from 11.0 up to but *not* including 13.0.
 
 ---
 
 ##### (2020)-(**UI**) [AssetCatalogAware](https://github.com/wltrup/AssetCatalogAware) and [AssetCatalogAwarePre13](https://github.com/wltrup/AssetCatalogAwarePre13)
+![](https://img.shields.io/badge/platforms-iOS%2013%20%7C%20tvOS%2013%20%7C%20watchOS%206-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/AssetCatalogAware)
+![GitHub](https://img.shields.io/github/license/wltrup/AssetCatalogAware)
 
-`AssetCatalogAware` is a Swift Package Manager package for iOS defining a collection of protocols and associated protocol extensions to access various kinds of assets, such as colors, images, strings, and fonts, in a type-safe manner. The *pre13* variant supports legacy systems with versions below 13.0.
+![](https://img.shields.io/badge/platforms-iOS%2011%20%7C%20tvOS%2011%20%7C%20watchOS%204-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/AssetCatalogAwarePre13)
+![GitHub](https://img.shields.io/github/license/wltrup/AssetCatalogAwarePre13)
+
+`AssetCatalogAware` is a Swift Package Manager package for iOS defining a collection of protocols and associated protocol extensions to access various kinds of assets, such as colors, images, strings, and fonts, in a type-safe manner. The *pre13* variant supports legacy systems with iOS/tvOS versions from 11.0 up to but *not* including 13.0 and watchOS versions from 4.0 up to but *not* including 6.0.
 
 ---
 
