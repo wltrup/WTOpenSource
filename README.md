@@ -3,8 +3,19 @@ This repo collects in one place references to all my open-source contributions t
 
 ## General-purpose libraries
 
+##### (2019)-(**Foundation**) [DictionarySlicing](https://github.com/wltrup/DictionarySlicing)
+![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/DictionarySlicing)
+![GitHub](https://img.shields.io/github/license/wltrup/DictionarySlicing)
+
+**DictionarySlicing** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  implementing an extension to `Dictionary` to convert a dictionary into its slice or into an array of its key-value pairs.
+
+---
+
 ##### (2019)-(**Other**) [SortOrder](https://github.com/wltrup/SortOrder)
-![](https://img.shields.io/badge/platforms-iOS%2011%20%7C%20tvOS%2011%20%7C%20watchOS%205%20%7C%20macOS%2010.14-red)
+![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/SortOrder)
