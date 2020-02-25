@@ -3,7 +3,18 @@ This repo collects in one place references to all my open-source contributions t
 
 ## General-purpose libraries
 
-##### (2020)-(**Other**) [Either](https://github.com/wltrup/Either)
+##### (2019)-(**Other**) [SortOrder](https://github.com/wltrup/SortOrder)
+![](https://img.shields.io/badge/platforms-iOS%2011%20%7C%20tvOS%2011%20%7C%20watchOS%205%20%7C%20macOS%2010.14-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/SortOrder)
+![GitHub](https://img.shields.io/github/license/wltrup/SortOrder)
+
+**SortOrder** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  implementing a simple `SortOrder` type.
+
+---
+
+##### (2019)-(**Other**) [Either](https://github.com/wltrup/Either)
 ![](https://img.shields.io/badge/platforms-iOS%2011%20%7C%20tvOS%2011%20%7C%20watchOS%205%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -14,7 +25,7 @@ This repo collects in one place references to all my open-source contributions t
 
 ---
 
-##### (2020)-(**UI**) [UIViewPreview](https://github.com/wltrup/UIViewPreview)
+##### (2019)-(**UI**) [UIViewPreview](https://github.com/wltrup/UIViewPreview)
 ![](https://img.shields.io/badge/platforms-iOS%2013%20%7C%20tvOS%2013%20%7C%20watchOS%206%20%7C%20macOS%2010.15-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
@@ -25,7 +36,7 @@ This repo collects in one place references to all my open-source contributions t
 
 ---
 
-##### (2020)-(**UI**) [ColorExtensions](https://github.com/wltrup/ColorExtensions)
+##### (2019)-(**UI**) [ColorExtensions](https://github.com/wltrup/ColorExtensions)
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%205-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
@@ -36,7 +47,7 @@ This repo collects in one place references to all my open-source contributions t
 
 ---
 
-##### (2020)-(**UI**) [Assets](https://github.com/wltrup/Assets) and [AssetsPre13](https://github.com/wltrup/AssetsPre13)
+##### (2019)-(**UI**) [Assets](https://github.com/wltrup/Assets) and [AssetsPre13](https://github.com/wltrup/AssetsPre13)
 ![](https://img.shields.io/badge/platforms-iOS%2013-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
@@ -53,7 +64,7 @@ This repo collects in one place references to all my open-source contributions t
 
 ---
 
-##### (2020)-(**UI**) [AssetCatalogAware](https://github.com/wltrup/AssetCatalogAware) and [AssetCatalogAwarePre13](https://github.com/wltrup/AssetCatalogAwarePre13)
+##### (2019)-(**UI**) [AssetCatalogAware](https://github.com/wltrup/AssetCatalogAware) and [AssetCatalogAwarePre13](https://github.com/wltrup/AssetCatalogAwarePre13)
 ![](https://img.shields.io/badge/platforms-iOS%2013%20%7C%20tvOS%2013%20%7C%20watchOS%206-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
