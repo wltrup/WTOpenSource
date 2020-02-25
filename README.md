@@ -3,6 +3,12 @@ This repo collects in one place references to all my open-source contributions t
 
 ## General-purpose libraries
 
+##### (2020) [UIViewPreview](https://github.com/wltrup/UIViewPreview)
+
+`UIViewPreview` is a Swift Package Manager package for iOS 13.0 and above, tvOS 13.0 and above, watchOS 6.0 and above, and macOS 10.15 and above, that enables `UIKit` development on *macOS Catalina* to take advantage of `SwiftUI` previews in Xcode 11 and above. It's entirely *not* my idea but, rather, just a wrapper for the [code written by matt, of NSHipster fame](https://nshipster.com/swiftui-previews/).
+
+---
+
 ##### (2020) [ColorExtensions](https://github.com/wltrup/ColorExtensions)
 
 `ColorExtensions` is a Swift Package Manager package for iOS 10.0 and above, iPadOS 10.0 and above, and watchOS 5.0 and above providing a variety of useful extensions to UIColor.
