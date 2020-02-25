@@ -3,25 +3,31 @@ This repo collects in one place references to all my open-source contributions t
 
 ## General-purpose libraries
 
-##### (2020) [UIViewPreview](https://github.com/wltrup/UIViewPreview)
+##### (2020)-(**Foundation**) [Either](https://github.com/wltrup/Either)
+
+**Either** is a Swift Package Manager package for iOS 11.0 and above, tvOS 11.0 and above, watchOS 5.0 and above, macOS 10.14 and above, under Swift 5.0 and above, implementing a simple `Either` type, with a few built-in and useful protocol conformances.
+
+---
+
+##### (2020)-(**UI**) [UIViewPreview](https://github.com/wltrup/UIViewPreview)
 
 `UIViewPreview` is a Swift Package Manager package for iOS 13.0 and above, tvOS 13.0 and above, watchOS 6.0 and above, and macOS 10.15 and above, that enables `UIKit` development on *macOS Catalina* to take advantage of `SwiftUI` previews in Xcode 11 and above. It's entirely *not* my idea but, rather, just a wrapper for the [code written by matt, of NSHipster fame](https://nshipster.com/swiftui-previews/).
 
 ---
 
-##### (2020) [ColorExtensions](https://github.com/wltrup/ColorExtensions)
+##### (2020)-(**UI**) [ColorExtensions](https://github.com/wltrup/ColorExtensions)
 
 `ColorExtensions` is a Swift Package Manager package for iOS 10.0 and above, iPadOS 10.0 and above, and watchOS 5.0 and above providing a variety of useful extensions to UIColor.
 
 ---
 
-##### (2020) [Assets](https://github.com/wltrup/Assets) and [AssetsPre13](https://github.com/wltrup/AssetsPre13)
+##### (2020)-(**UI**) [Assets](https://github.com/wltrup/Assets) and [AssetsPre13](https://github.com/wltrup/AssetsPre13)
 
 `Assets` is an iOS framework that makes concrete use of [AssetCatalogAware](https://github.com/wltrup/AssetCatalogAware) to provide a self-contained collection of assets and easy access to them. UIKit and SwiftUI example projects are included. The *pre13* variant supports legacy systems with versions below 13.0.
 
 ---
 
-##### (2020) [AssetCatalogAware](https://github.com/wltrup/AssetCatalogAware) and [AssetCatalogAwarePre13](https://github.com/wltrup/AssetCatalogAwarePre13)
+##### (2020)-(**UI**) [AssetCatalogAware](https://github.com/wltrup/AssetCatalogAware) and [AssetCatalogAwarePre13](https://github.com/wltrup/AssetCatalogAwarePre13)
 
 `AssetCatalogAware` is a Swift Package Manager package for iOS defining a collection of protocols and associated protocol extensions to access various kinds of assets, such as colors, images, strings, and fonts, in a type-safe manner. The *pre13* variant supports legacy systems with versions below 13.0.
 
