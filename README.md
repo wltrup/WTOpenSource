@@ -3,14 +3,21 @@ This repo collects in one place references to all my open-source contributions t
 
 ## General-purpose libraries
 
-##### (2019)-(**Foundation**) [DictionarySlicing](https://github.com/wltrup/DictionarySlicing)
+##### (2019)-(**Foundation**) [DictionarySorting](https://github.com/wltrup/DictionarySorting)
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/DictionarySlicing)
-![GitHub](https://img.shields.io/github/license/wltrup/DictionarySlicing)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/DictionarySorting)
+![GitHub](https://img.shields.io/github/license/wltrup/DictionarySorting)
 
-**DictionarySlicing** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  implementing an extension to `Dictionary` to convert a dictionary into its slice or into an array of its key-value pairs.
+**DictionarySorting** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, implementing an extension to `Dictionary` that provides an easy-to-use and ergonomic "swifty" way to sort a dictionary, as easy as:
+```swift
+let data = /* ... */ // a dictionary of some kind
+let sorted = data.sorted(by: .keys(.ascending)) // returns an array of the elements stored in the
+                                                // dictionary, sorted in ascending order of their keys
+```
+
+The package provides several such ```sorted(by:)``` functions, depending on whether one or both the dictionary's `Key` and `Value` types conform to `Comparable`.
 
 ---
 
@@ -22,6 +29,17 @@ This repo collects in one place references to all my open-source contributions t
 ![GitHub](https://img.shields.io/github/license/wltrup/SortOrder)
 
 **SortOrder** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  implementing a simple `SortOrder` type.
+
+---
+
+##### (2019)-(**Foundation**) [DictionarySlicing](https://github.com/wltrup/DictionarySlicing)
+![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/DictionarySlicing)
+![GitHub](https://img.shields.io/github/license/wltrup/DictionarySlicing)
+
+**DictionarySlicing** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  implementing an extension to `Dictionary` to convert a dictionary into its slice or into an array of its key-value pairs.
 
 ---
 
