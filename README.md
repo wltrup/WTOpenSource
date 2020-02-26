@@ -3,6 +3,17 @@ This repo collects in one place references to all my open-source contributions t
 
 ## General-purpose libraries
 
+##### (2019)-(**Math**) [Combinatorics](https://github.com/wltrup/Combinatorics)
+![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/Combinatorics)
+![GitHub](https://img.shields.io/github/license/wltrup/Combinatorics)
+
+**Combinatorics** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining functions to efficiently compute permutations and combinations of given elements, as well as factorials and binomial coefficients.
+
+---
+
 ##### (2019)-(**Math**) [NumberTheory](https://github.com/wltrup/NumberTheory)
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
@@ -10,7 +21,7 @@ This repo collects in one place references to all my open-source contributions t
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/NumberTheory)
 ![GitHub](https://img.shields.io/github/license/wltrup/NumberTheory)
 
-**NumberTheory** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  defining a few simple functions to perform common number-theoretic operations, such as *gcd* and *lcm*.
+**NumberTheory** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining a few simple functions to perform common number-theoretic operations, such as *gcd* and *lcm*.
 
 ---
 
@@ -61,7 +72,7 @@ The package provides several such ```sorted(by:)``` functions, depending on whet
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/JsonSupport)
 ![GitHub](https://img.shields.io/github/license/wltrup/JsonSupport)
 
-**JsonSupport** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  defining a few simple functions to perform common operations associated with encoding and decoding **local** JSON files.
+**JsonSupport** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining a few simple functions to perform common operations associated with encoding and decoding **local** JSON files.
 
 ---
 
@@ -72,7 +83,7 @@ The package provides several such ```sorted(by:)``` functions, depending on whet
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/ValueRestriction)
 ![GitHub](https://img.shields.io/github/license/wltrup/ValueRestriction)
 
-**ValueRestriction** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  defining an enumeration to easily test a numerical value against some condition.
+**ValueRestriction** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining an enumeration to easily test a numerical value against some condition.
 
 ---
 
@@ -83,7 +94,7 @@ The package provides several such ```sorted(by:)``` functions, depending on whet
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/OperationResult)
 ![GitHub](https://img.shields.io/github/license/wltrup/OperationResult)
 
-**OperationResult** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  defining an enumeration similar to `Result` but with `Array<String>` in place of an error type.
+**OperationResult** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining an enumeration similar to `Result` but with `Array<String>` in place of an error type.
 
 One neat use for this type is when considering a long sequence of numerical operations, some of which may fail. For example, division by zero, logarithm of a non-positive number, arc-sine or arc-cosine of a number with a magnitude larger than 1, and so on. Rather than stop the execution with throw-catches or risk runtime errors, the `OperationResult<A>` type allows a clean progression to the end, accumulating error messages along the way.
 
@@ -96,7 +107,7 @@ One neat use for this type is when considering a long sequence of numerical oper
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/Counter)
 ![GitHub](https://img.shields.io/github/license/wltrup/Counter)
 
-**Counter** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  defining a model type to represent an integer counter.
+**Counter** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining a model type to represent an integer counter.
 
 ---
 
