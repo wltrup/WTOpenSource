@@ -125,7 +125,7 @@ as part of a much bigger project we're working on at [Babylon](https://github.co
 
 ---
 
-##### (2017) [WTAutoLayoutExtensions](https://github.com/wltrup/iOS-Swift-WTAutoLayoutExtensions)
+##### (2017)-(**UI**) [WTAutoLayoutExtensions](https://github.com/wltrup/iOS-Swift-WTAutoLayoutExtensions)
 [![CI Status](http://img.shields.io/travis/wltrup/iOS-Swift-WTAutoLayoutExtensions.svg?style=flat)](https://travis-ci.org/iOS-Swift-wltrup/WTAutoLayoutExtensions)
 [![Version](https://img.shields.io/cocoapods/v/WTAutoLayoutExtensions.svg?style=flat)](http://cocoapods.org/pods/WTAutoLayoutExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTAutoLayoutExtensions.svg?style=flat)](https://developer.apple.com)
@@ -142,7 +142,7 @@ Not really a library on its own but merely an idea or suggestion on how to handl
 
 ---
 
-##### (2016) [WTOnlineLinearRegression](https://github.com/wltrup/Swift-WTOnlineLinearRegression)
+##### (2016)-(**Math**) [WTOnlineLinearRegression](https://github.com/wltrup/Swift-WTOnlineLinearRegression)
 [![CI Status](http://img.shields.io/travis/wltrup/Swift-WTOnlineLinearRegression.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTOnlineLinearRegression)
 [![Version](https://img.shields.io/cocoapods/v/WTOnlineLinearRegression.svg?style=flat)](http://cocoapods.org/pods/WTOnlineLinearRegression)
 [![Platform](https://img.shields.io/cocoapods/p/WTOnlineLinearRegression.svg?style=flat)](http://cocoapods.org/pods/WTOnlineLinearRegression)
@@ -156,7 +156,7 @@ snapshots of the results of the regression at the time the items were added to, 
 
 ---
 
-##### (2016) [WTCoreGraphicsExtensions](https://github.com/wltrup/Swift-WTCoreGraphicsExtensions)
+##### (2016)-(**UI**) [WTCoreGraphicsExtensions](https://github.com/wltrup/Swift-WTCoreGraphicsExtensions)
 [![CI Status](http://img.shields.io/travis/wltrup/Swift-WTCoreGraphicsExtensions.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTCoreGraphicsExtensions)
 [![Version](https://img.shields.io/cocoapods/v/WTCoreGraphicsExtensions.svg?style=flat)](http://cocoapods.org/pods/WTCoreGraphicsExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTCoreGraphicsExtensions.svg?style=flat)](http://cocoapods.org/pods/WTCoreGraphicsExtensions)
