@@ -21,17 +21,6 @@ The package provides several such ```sorted(by:)``` functions, depending on whet
 
 ---
 
-##### (2019)-(**Other**) [SortOrder](https://github.com/wltrup/SortOrder)
-![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
-[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
-[![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/SortOrder)
-![GitHub](https://img.shields.io/github/license/wltrup/SortOrder)
-
-**SortOrder** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  implementing a simple `SortOrder` type.
-
----
-
 ##### (2019)-(**Foundation**) [DictionarySlicing](https://github.com/wltrup/DictionarySlicing)
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
@@ -40,6 +29,17 @@ The package provides several such ```sorted(by:)``` functions, depending on whet
 ![GitHub](https://img.shields.io/github/license/wltrup/DictionarySlicing)
 
 **DictionarySlicing** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  implementing an extension to `Dictionary` to convert a dictionary into its slice or into an array of its key-value pairs.
+
+---
+
+##### (2019)-(**Other**) [SortOrder](https://github.com/wltrup/SortOrder)
+![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/SortOrder)
+![GitHub](https://img.shields.io/github/license/wltrup/SortOrder)
+
+**SortOrder** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  implementing a simple `SortOrder` type.
 
 ---
 
@@ -179,6 +179,20 @@ A simulation of a [**kaleidoscope**](https://en.wikipedia.org/wiki/Kaleidoscope)
 
 ## Deprecated projects
 
+##### (2017) [WTUniquePrimitiveType](https://github.com/wltrup/Swift-WTUniquePrimitiveType) - **DEPRECATED**
+[![CI Status](http://img.shields.io/travis/wltrup/Swift-WTUniquePrimitiveType.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTUniquePrimitiveType)
+[![Version](https://img.shields.io/cocoapods/v/WTUniquePrimitiveType.svg?style=flat)](http://cocoapods.org/pods/WTUniquePrimitiveType)
+[![Platform](https://img.shields.io/cocoapods/p/WTUniquePrimitiveType.svg?style=flat)](http://cocoapods.org/pods/WTUniquePrimitiveType)
+[![Swift](https://img.shields.io/badge/Swift-3.1-orange.svg)](https://swift.org)
+[![Xcode](https://img.shields.io/badge/Xcode-8.3-blue.svg)](https://developer.apple.com/xcode)
+[![License](https://img.shields.io/cocoapods/l/WTUniquePrimitiveType.svg?style=flat)](http://cocoapods.org/pods/WTUniquePrimitiveType)
+
+A library to allow you to create distinct types based on the same primitive value so the compiler will warn you if, for example, you accidentally confuse the user name with the user password or the user email address, since they're all based on the same primitive type, namely, `String`.
+
+(2019.11.30) Please note that I've deprecated this project. A much better approach - [Tagged](https://github.com/pointfreeco/swift-tagged) - was devised by Brandon Williams and Stephen Celis, the folks at [pointfree](https://www.pointfree.co). You can watch the episode on it [here](https://www.pointfree.co/episodes/ep12-tagged).
+
+---
+
 ##### (2016-2017) [WTUIColorExtensions](https://github.com/wltrup/iOS-Swift-WTUIColorExtensions) - **DEPRECATED**
 [![CI Status](http://img.shields.io/travis/wltrup/iOS-Swift-WTUIColorExtensions.svg?style=flat)](https://travis-ci.org/wltrup/iOS-Swift-WTUIColorExtensions)
 [![Version](https://img.shields.io/cocoapods/v/WTUIColorExtensions.svg?style=flat)](http://cocoapods.org/pods/WTUIColorExtensions)
@@ -191,20 +205,6 @@ An extension to `UIColor` adding the ability to generate pseudo-random color ins
 - finding the most contrasting color to a given color
 
 As of 2020.02.21, this project is deprecated and is replaced by [ColorExtensions](https://github.com/wltrup/ColorExtensions).
-
----
-
-##### (2017) [WTUniquePrimitiveType](https://github.com/wltrup/Swift-WTUniquePrimitiveType) - **DEPRECATED**
-[![CI Status](http://img.shields.io/travis/wltrup/Swift-WTUniquePrimitiveType.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTUniquePrimitiveType)
-[![Version](https://img.shields.io/cocoapods/v/WTUniquePrimitiveType.svg?style=flat)](http://cocoapods.org/pods/WTUniquePrimitiveType)
-[![Platform](https://img.shields.io/cocoapods/p/WTUniquePrimitiveType.svg?style=flat)](http://cocoapods.org/pods/WTUniquePrimitiveType)
-[![Swift](https://img.shields.io/badge/Swift-3.1-orange.svg)](https://swift.org)
-[![Xcode](https://img.shields.io/badge/Xcode-8.3-blue.svg)](https://developer.apple.com/xcode)
-[![License](https://img.shields.io/cocoapods/l/WTUniquePrimitiveType.svg?style=flat)](http://cocoapods.org/pods/WTUniquePrimitiveType)
-
-A library to allow you to create distinct types based on the same primitive value so the compiler will warn you if, for example, you accidentally confuse the user name with the user password or the user email address, since they're all based on the same primitive type, namely, `String`.
-
-(2019.11.30) Please note that I've deprecated this project. A much better approach - [Tagged](https://github.com/pointfreeco/swift-tagged) - was devised by Brandon Williams and Stephen Celis, the folks at [pointfree](https://www.pointfree.co). You can watch the episode on it [here](https://www.pointfree.co/episodes/ep12-tagged).
 
 ---
 
@@ -244,13 +244,13 @@ An extension to `Bool` adding a method to generate uniformly-distributed pseudo-
 
 ---
 
+##### (2015) [Circular Progress View](https://github.com/wltrup/iOS-Swift-Circular-Progress-View) - **DEPRECATED**
+A fully customisable `Swift` class for a progress view similar to what the _Apple Watch_ has.
+This is probably still useful as a learning reference but not for actual use in an app.
+
+---
+
 ##### (2014) [CGExtensions](https://github.com/wltrup/iOS-Swift-CGExtensions) - **DEPRECATED**
 A `Swift` collection of useful extensions to `CGFloat`, `CGPoint`, and `CGVector`, plus test suites. If you need 2-dimensional vectors then you'll want this.
 
 This library has been deprecated and replaced by separate libraries compatible with Swift 3.0. Please refer to the more recent ones listed above.
-
----
-
-##### (2015) [Circular Progress View](https://github.com/wltrup/iOS-Swift-Circular-Progress-View) - **DEPRECATED**
-A fully customisable `Swift` class for a progress view similar to what the _Apple Watch_ has.
-This is probably still useful as a learning reference but not for actual use in an app.
