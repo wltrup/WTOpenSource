@@ -110,7 +110,7 @@ The package provides several such ```sorted(by:)``` functions, depending on whet
 
 ---
 
-##### (2017) [DrawerKit](https://github.com/Babylonpartners/DrawerKit)
+##### (2017)-(**UI**) [DrawerKit](https://github.com/Babylonpartners/DrawerKit)
 [![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Version](https://img.shields.io/cocoapods/v/DrawerKit.svg?style=flat)](http://cocoapods.org/pods/DrawerKit)
 [![Platform](https://img.shields.io/cocoapods/p/DrawerKit.svg?style=flat)](http://cocoapods.org/pods/DrawerKit)
