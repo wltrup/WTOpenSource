@@ -51,6 +51,23 @@ The package lets you initialise the biased die in multiple ways, depending on th
 
 ---
 
+##### (2019)-(**Foundation** | **Experimental**) [NumericScalar](https://github.com/wltrup/NumericScalar)
+![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/NumericScalar)
+![GitHub](https://img.shields.io/github/license/wltrup/NumericScalar)
+
+**NumericScalar** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining two protocols, `NumericScalar` and `ValueConvertibleNumericScalar`.
+
+`NumericScalar` adds a number of useful static computed properties that allow for the identification of a numeric type in terms of its explicit type. This is useful in generic algorithms that, nonetheless, sometimes need to behave differently depending on the specific numeric type at hand.
+
+`ValueConvertibleNumericScalar` adds a function to convert an instance of a type conforming  to `NumericScalar` into another. This is easier to use and more uniform than trying to figure out which initialiser to use in any particular case.
+
+Note: This is an *experimental* package.
+
+---
+
 ##### (2019)-(**Foundation**) [CollectionSplitting](https://github.com/wltrup/CollectionSplitting)
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
