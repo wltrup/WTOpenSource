@@ -51,6 +51,17 @@ The package lets you initialise the biased die in multiple ways, depending on th
 
 ---
 
+##### (2019)-(**Foundation**) [StringFormatting](https://github.com/wltrup/StringFormatting)
+![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/StringFormatting)
+![GitHub](https://img.shields.io/github/license/wltrup/StringFormatting)
+
+**StringFormatting** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining some useful functions for formatting strings.
+
+---
+
 ##### (2019)-(**Foundation** | **Experimental**) [NumericScalar](https://github.com/wltrup/NumericScalar)
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
