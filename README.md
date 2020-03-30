@@ -3,6 +3,28 @@ This repo collects in one place references to all my open-source contributions t
 
 ## General-purpose libraries
 
+##### (2020)-(**UI**) [TabularView](https://github.com/wltrup/TabularView) and [TabularViewDemo](https://github.com/wltrup/TabularViewDemo)
+![](https://img.shields.io/badge/platforms-iOS/iPadOS%2013%20-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.2-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/TabularView)
+![GitHub](https://img.shields.io/github/license/wltrup/TabularView)
+
+![](https://img.shields.io/badge/platforms-iOS/iPadOS%2013%20-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.2-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/TabularViewDemo)
+![GitHub](https://img.shields.io/github/license/wltrup/TabularViewDemo)
+
+**TabularView** is a Swift package for iOS/iPadOS (13.0 and above) to display tabular data in a view, in a manner similar to how `UICollectionView` can display unidimensional data in a grid.
+
+The package supports multiple columns, each with their own optional header and optional footer, indexed by an enumeration type, that *you* define, rather than an integer, so your code is clearer about which column or columns it refers to. There's also built-in support for sorting rows by a selected column.
+
+The design philosophy is inspired heavily by how `UICollectionView` works. There are separate data source and delegate protocols (in fact, *two* delegate protocols, one for layout and another for sorting), and the data source is managed using the new (as of 2019) `UICollectionView` [*Diffable Data Source*](https://developer.apple.com/documentation/uikit/uicollectionviewdiffabledatasource?language=objc) API.
+
+---
+
+
 ##### (2019)-(**Math**) [BiasedDie](https://github.com/wltrup/BiasedDie)
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
@@ -10,7 +32,7 @@ This repo collects in one place references to all my open-source contributions t
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/BiasedDie)
 ![GitHub](https://img.shields.io/github/license/wltrup/BiasedDie)
 
-**BiasedDie** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  defining a generator of pseudo-random numbers based on a discrete distribution of probabilities.
+**BiasedDie** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  defining a generator of pseudo-random numbers based on a discrete distribution of probabilities.
 
 In less formal terms, imagine that you have a die with `N` faces and that each face has a potentially different probability of being landed on than other faces. In other words, the `k`-th face has a probablity `pk` of being landed on, for `1 ≤ k ≤ N`. Of course, the sum of all of these probabilities must equal 1. This is referred to as a *biased die*. Now imagine that you throw this biased die many times, recording each time the number of the face the die lands on. This package lets you generate a sequence of such numbers as if you had actually thrown such a die, and does so as efficiently as possible, using a method known as the *alias method*. An excellent exposition of this method can be found [here](http://www.keithschwarz.com/darts-dice-coins/).
 
@@ -25,7 +47,7 @@ The package lets you initialise the biased die in multiple ways, depending on th
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/Combinatorics)
 ![GitHub](https://img.shields.io/github/license/wltrup/Combinatorics)
 
-**Combinatorics** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining functions to efficiently compute permutations and combinations of given elements, as well as factorials and binomial coefficients.
+**Combinatorics** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining functions to efficiently compute permutations and combinations of given elements, as well as factorials and binomial coefficients.
 
 ---
 
@@ -36,7 +58,7 @@ The package lets you initialise the biased die in multiple ways, depending on th
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/NumberTheory)
 ![GitHub](https://img.shields.io/github/license/wltrup/NumberTheory)
 
-**NumberTheory** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining a few simple functions to perform common number-theoretic operations, such as *gcd* and *lcm*.
+**NumberTheory** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining a few simple functions to perform common number-theoretic operations, such as *gcd* and *lcm*.
 
 ---
 
@@ -47,7 +69,7 @@ The package lets you initialise the biased die in multiple ways, depending on th
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/ArrayTransposition)
 ![GitHub](https://img.shields.io/github/license/wltrup/ArrayTransposition)
 
-**ArrayTransposition** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, adding an extension to `Array` to allow the computation of *matrix transpositions*.
+**ArrayTransposition** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, adding an extension to `Array` to allow the computation of *matrix transpositions*.
 
 ---
 
@@ -58,7 +80,7 @@ The package lets you initialise the biased die in multiple ways, depending on th
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/StringFormatting)
 ![GitHub](https://img.shields.io/github/license/wltrup/StringFormatting)
 
-**StringFormatting** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining some useful functions for formatting strings.
+**StringFormatting** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining some useful functions for formatting strings.
 
 ---
 
@@ -69,7 +91,7 @@ The package lets you initialise the biased die in multiple ways, depending on th
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/BinaryIntegerFormatting)
 ![GitHub](https://img.shields.io/github/license/wltrup/BinaryIntegerFormatting)
 
-**BinaryIntegerFormatting** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining some useful functions for formatting integers.
+**BinaryIntegerFormatting** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining some useful functions for formatting integers.
 
 Ordinarily, one should use `NumberFormatter` to format numbers but I've found use cases where this package has been more useful, especially when localisation isn't an issue.
 
@@ -82,7 +104,7 @@ Ordinarily, one should use `NumberFormatter` to format numbers but I've found us
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/NumericScalar)
 ![GitHub](https://img.shields.io/github/license/wltrup/NumericScalar)
 
-**NumericScalar** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining two protocols, `NumericScalar` and `ValueConvertibleNumericScalar`.
+**NumericScalar** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining two protocols, `NumericScalar` and `ValueConvertibleNumericScalar`.
 
 `NumericScalar` adds a number of useful static computed properties that allow for the identification of a numeric type in terms of its explicit type. This is useful in generic algorithms that, nonetheless, sometimes need to behave differently depending on the specific numeric type at hand.
 
@@ -99,7 +121,7 @@ Note: This is an *experimental* package.
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/CollectionSplitting)
 ![GitHub](https://img.shields.io/github/license/wltrup/CollectionSplitting)
 
-**CollectionSplitting** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, adding an extension to `Collection` in order to define a function that splits the collection into an array of sub-sequences of equal length.
+**CollectionSplitting** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, adding an extension to `Collection` in order to define a function that splits the collection into an array of sub-sequences of equal length.
 
 ---
 
@@ -110,7 +132,7 @@ Note: This is an *experimental* package.
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/CollectionDuplicateRemoval)
 ![GitHub](https://img.shields.io/github/license/wltrup/CollectionDuplicateRemoval)
 
-**CollectionDuplicateRemoval** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, adding protocol extensions to `Collection` in order to define a function that returns an array of the elements of the collection, with duplicates removed.
+**CollectionDuplicateRemoval** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, adding protocol extensions to `Collection` in order to define a function that returns an array of the elements of the collection, with duplicates removed.
 
 ---
 
@@ -121,7 +143,7 @@ Note: This is an *experimental* package.
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/CollectionComparable)
 ![GitHub](https://img.shields.io/github/license/wltrup/CollectionComparable)
 
-**CollectionComparable** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, adding a protocol extension to `Collection` so that it's `Comparable` when its `Element` type is `Comparable`.
+**CollectionComparable** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, adding a protocol extension to `Collection` so that it's `Comparable` when its `Element` type is `Comparable`.
 
 ---
 
@@ -132,7 +154,7 @@ Note: This is an *experimental* package.
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/CollectionConvenience)
 ![GitHub](https://img.shields.io/github/license/wltrup/CollectionConvenience)
 
-**CollectionConvenience** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, adding a protocol extension to `Collection` to define the computed property `isNotEmpty`. It may seem redundant but it sometimes does make for cleaner code.
+**CollectionConvenience** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, adding a protocol extension to `Collection` to define the computed property `isNotEmpty`. It may seem redundant but it sometimes does make for cleaner code.
 
 ---
 
@@ -143,7 +165,7 @@ Note: This is an *experimental* package.
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/BoolConvenience)
 ![GitHub](https://img.shields.io/github/license/wltrup/BoolConvenience)
 
-**BoolConvenience** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, adding an extension to `Bool` to define two computed properties, `isTrue` and `isFalse`. These may seem redundant but they sometimes do make for cleaner code.
+**BoolConvenience** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, adding an extension to `Bool` to define two computed properties, `isTrue` and `isFalse`. These may seem redundant but they sometimes do make for cleaner code.
 
 ---
 
@@ -154,7 +176,7 @@ Note: This is an *experimental* package.
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/DictionarySorting)
 ![GitHub](https://img.shields.io/github/license/wltrup/DictionarySorting)
 
-**DictionarySorting** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, implementing an extension to `Dictionary` that provides an easy-to-use and ergonomic "swifty" way to sort a dictionary, as easy as:
+**DictionarySorting** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, implementing an extension to `Dictionary` that provides an easy-to-use and ergonomic "swifty" way to sort a dictionary, as easy as:
 ```swift
 let data = /* ... */ // a dictionary of some kind
 let sorted = data.sorted(by: .keys(.ascending)) // returns an array of the elements stored in the
@@ -172,7 +194,7 @@ The package provides several such ```sorted(by:)``` functions, depending on whet
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/DictionarySlicing)
 ![GitHub](https://img.shields.io/github/license/wltrup/DictionarySlicing)
 
-**DictionarySlicing** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  implementing an extension to `Dictionary` to convert a dictionary into its slice or into an array of its key-value pairs.
+**DictionarySlicing** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  implementing an extension to `Dictionary` to convert a dictionary into its slice or into an array of its key-value pairs.
 
 ---
 
@@ -183,7 +205,7 @@ The package provides several such ```sorted(by:)``` functions, depending on whet
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/SortOrder)
 ![GitHub](https://img.shields.io/github/license/wltrup/SortOrder)
 
-**SortOrder** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  implementing a simple `SortOrder` type.
+**SortOrder** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  implementing a simple `SortOrder` type.
 
 ---
 
@@ -194,7 +216,7 @@ The package provides several such ```sorted(by:)``` functions, depending on whet
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/JsonSupport)
 ![GitHub](https://img.shields.io/github/license/wltrup/JsonSupport)
 
-**JsonSupport** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining a few simple functions to perform common operations associated with encoding and decoding **local** JSON files.
+**JsonSupport** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining a few simple functions to perform common operations associated with encoding and decoding **local** JSON files.
 
 ---
 
@@ -205,7 +227,7 @@ The package provides several such ```sorted(by:)``` functions, depending on whet
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/ValueRestriction)
 ![GitHub](https://img.shields.io/github/license/wltrup/ValueRestriction)
 
-**ValueRestriction** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining an enumeration to easily test a numerical value against some condition.
+**ValueRestriction** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining an enumeration to easily test a numerical value against some condition.
 
 ---
 
@@ -216,7 +238,7 @@ The package provides several such ```sorted(by:)``` functions, depending on whet
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/OperationResult)
 ![GitHub](https://img.shields.io/github/license/wltrup/OperationResult)
 
-**OperationResult** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining an enumeration similar to `Result` but with `Array<String>` in place of an error type.
+**OperationResult** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining an enumeration similar to `Result` but with `Array<String>` in place of an error type.
 
 One neat use for this type is when considering a long sequence of numerical operations, some of which may fail. For example, division by zero, logarithm of a non-positive number, arc-sine or arc-cosine of a number with a magnitude larger than 1, and so on. Rather than stop the execution with throw-catches or risk runtime errors, the `OperationResult<A>` type allows a clean progression to the end, accumulating error messages along the way.
 
@@ -229,7 +251,7 @@ One neat use for this type is when considering a long sequence of numerical oper
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/Counter)
 ![GitHub](https://img.shields.io/github/license/wltrup/Counter)
 
-**Counter** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining a model type to represent an integer counter.
+**Counter** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining a model type to represent an integer counter.
 
 ---
 
@@ -240,7 +262,7 @@ One neat use for this type is when considering a long sequence of numerical oper
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/Either)
 ![GitHub](https://img.shields.io/github/license/wltrup/Either)
 
-**Either** is a Swift Package Manager package for iOS/tvOS (11.0 and above), watchOS (5.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  implementing a simple `Either` type, with a few built-in and useful properties and protocol conformances.
+**Either** is a Swift package for iOS/tvOS (11.0 and above), watchOS (5.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  implementing a simple `Either` type, with a few built-in and useful properties and protocol conformances.
 
 ---
 
@@ -251,7 +273,7 @@ One neat use for this type is when considering a long sequence of numerical oper
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/BinaryChoice)
 ![GitHub](https://img.shields.io/github/license/wltrup/BinaryChoice)
 
-**BinaryChoice** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining protocols for types that can be initialised from a boolean value and/or can be represented by a boolean value.
+**BinaryChoice** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining protocols for types that can be initialised from a boolean value and/or can be represented by a boolean value.
 
 ---
 
@@ -262,7 +284,7 @@ One neat use for this type is when considering a long sequence of numerical oper
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/UIViewPreview)
 ![GitHub](https://img.shields.io/github/license/wltrup/UIViewPreview)
 
-`UIViewPreview` is a Swift Package Manager package enabling `UIKit` development on *macOS Catalina* to take advantage of `SwiftUI` previews in Xcode 11 and above. It's entirely *not* my idea but, rather, just a wrapper for the [code written by matt, of NSHipster fame](https://nshipster.com/swiftui-previews/).
+`UIViewPreview` is a Swift package enabling `UIKit` development on *macOS Catalina* to take advantage of `SwiftUI` previews in Xcode 11 and above. It's entirely *not* my idea but, rather, just a wrapper for the [code written by matt, of NSHipster fame](https://nshipster.com/swiftui-previews/).
 
 ---
 
@@ -273,7 +295,7 @@ One neat use for this type is when considering a long sequence of numerical oper
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/ColorExtensions)
 ![GitHub](https://img.shields.io/github/license/wltrup/ColorExtensions)
 
-`ColorExtensions` is a Swift Package Manager package for iOS/tvOS (10.0 and above) and watchOS (5.0 and above) providing a variety of useful extensions to `UIColor`.
+`ColorExtensions` is a Swift package for iOS/tvOS (10.0 and above) and watchOS (5.0 and above) providing a variety of useful extensions to `UIColor`.
 
 ---
 
@@ -307,7 +329,7 @@ One neat use for this type is when considering a long sequence of numerical oper
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/AssetCatalogAwarePre13)
 ![GitHub](https://img.shields.io/github/license/wltrup/AssetCatalogAwarePre13)
 
-`AssetCatalogAware` is a Swift Package Manager package for iOS defining a collection of protocols and associated protocol extensions to access various kinds of assets, such as colors, images, strings, and fonts, in a type-safe manner. The *pre13* variant supports legacy systems with iOS/tvOS versions from 11.0 up to but *not* including 13.0 and watchOS versions from 4.0 up to but *not* including 6.0.
+`AssetCatalogAware` is a Swift package for iOS defining a collection of protocols and associated protocol extensions to access various kinds of assets, such as colors, images, strings, and fonts, in a type-safe manner. The *pre13* variant supports legacy systems with iOS/tvOS versions from 11.0 up to but *not* including 13.0 and watchOS versions from 4.0 up to but *not* including 6.0.
 
 ---
 
