@@ -20,7 +20,7 @@ This repo collects in one place references to all my open-source contributions t
 
 The package supports multiple columns, each with their own optional header and optional footer, indexed by an enumeration type, that *you* define, rather than an integer, so your code is clearer about which column or columns it refers to. There's also built-in support for sorting rows by a selected column.
 
-The design philosophy is inspired heavily by how `UICollectionView` works. There are separate data source and delegate protocols (in fact, *two* delegate protocols, one for layout and another for sorting), and the data source is managed using the new (as of 2019) `UICollectionView` [*Diffable Data Source*](https://developer.apple.com/documentation/uikit/uicollectionviewdiffabledatasource?language=objc) API.
+The design philosophy is inspired heavily by how `UICollectionView` works. There are separate data source and delegate protocols (in fact, *two* delegate protocols, one for layout and another for sorting), and the data source is managed using the new (as of 2019) `UICollectionView` [*Diffable Data Source*](https://developer.apple.com/documentation/uikit/uicollectionviewdiffabledatasource) API.
 
 ---
 
