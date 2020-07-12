@@ -10,7 +10,7 @@ This repo collects in one place references to all my open-source contributions t
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/RandomAccessCollectionBinarySearch)
 ![GitHub](https://img.shields.io/github/license/wltrup/RandomAccessCollectionBinarySearch)
 
-**RandomAccessCollectionBinarySearch** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  implementing an extension to `RandomAccessCollectionBinarySearch` to add support for performing binary searches on sorted collections.
+**RandomAccessCollectionBinarySearch** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  implementing an extension to `RandomAccessCollection` to add support for performing binary searches on sorted collections.
 
 ---
 
