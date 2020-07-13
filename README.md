@@ -3,6 +3,21 @@ This repo collects in one place references to all my open-source contributions t
 
 ## General-purpose libraries
 
+##### (2020)-(**Math**) [LookupTable](https://github.com/wltrup/LookupTable)
+![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/LookupTable)
+![GitHub](https://img.shields.io/github/license/wltrup/LookupTable)
+
+**LookupTable** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  that efficiently implements a generic (in the Swift sense) linearly-interpolated and dynamically-sampled look-up table: given a function `f(x)` and its derivative `f'(x)`, a table is built that stores values of `x` and `f(x)` at specific points in some interval `[a,b]` provided by the client code. The derivative is necessary to dynamically determine where to sample `f(x)` for maximum efficiency and accuracy.
+
+As a useful example in itself, the package also provides the `TrigTable` type, which implements look-up tables for both `sin(x)` and `cos(x)`.
+
+Lastly, for a mathematical description of the details involved in building these tables, you may want to take a look at [Designing and building efficient look-up tables](./lookup_tables.pdf).
+
+---
+
 ##### (2020)-(**Foundation**) [RandomAccessCollectionBinarySearch](https://github.com/wltrup/RandomAccessCollectionBinarySearch)
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
