@@ -10,7 +10,7 @@ This repo collects in one place references to all my open-source contributions t
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/CubicLookupTable)
 ![GitHub](https://img.shields.io/github/license/wltrup/CubicLookupTable)
 
-**CubicLookupTable** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  that efficiently implements a generic (in the Swift sense) *linearly*-interpolated and dynamically-sampled look-up table: given a function `f(x)` and its derivative `f'(x)`, a table is built that stores values of `x` and `f(x)` at specific points in some interval `[a,b]` provided by the client code. The derivative is necessary to dynamically determine  where to sample `f(x)` for maximum efficiency and accuracy.
+**CubicLookupTable** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  that efficiently implements a generic (in the Swift sense) *cubic*-interpolated and dynamically-sampled look-up table: given a function `f(x)` and its derivative `f'(x)`, a table is built that stores values of `x` and `f(x)` at specific points in some interval `[a,b]` provided by the client code. The derivative is necessary to dynamically determine  where to sample `f(x)` for maximum efficiency and accuracy.
 
 For a *linearly*-interpolated version of this package, head to [LinearLookupTable](https://github.com/wltrup/LinearLookupTable).
 
