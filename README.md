@@ -3,16 +3,39 @@ This repo collects in one place references to all my open-source contributions t
 
 ## General-purpose libraries
 
-##### (2020)-(**Math**) [LookupTable](https://github.com/wltrup/LookupTable)
+##### (2020)-(**Math**) [CubicLookupTable](https://github.com/wltrup/CubicLookupTable)
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/LookupTable)
-![GitHub](https://img.shields.io/github/license/wltrup/LookupTable)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/CubicLookupTable)
+![GitHub](https://img.shields.io/github/license/wltrup/CubicLookupTable)
 
-**LookupTable** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  that efficiently implements a generic (in the Swift sense) linearly-interpolated and dynamically-sampled look-up table: given a function `f(x)` and its derivative `f'(x)`, a table is built that stores values of `x` and `f(x)` at specific points in some interval `[a,b]` provided by the client code. The derivative is necessary to dynamically determine where to sample `f(x)` for maximum efficiency and accuracy.
+**CubicLookupTable** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  that efficiently implements a generic (in the Swift sense) *linearly*-interpolated and dynamically-sampled look-up table: given a function `f(x)` and its derivative `f'(x)`, a table is built that stores values of `x` and `f(x)` at specific points in some interval `[a,b]` provided by the client code. The derivative is necessary to dynamically determine  where to sample `f(x)` for maximum efficiency and accuracy.
 
-As a useful example in itself, the package also provides the `TrigTable` type, which implements look-up tables for both `sin(x)` and `cos(x)`.
+For a *linearly*-interpolated version of this package, head to [LinearLookupTable](https://github.com/wltrup/LinearLookupTable).
+
+Which one should you choose to use? That depends entirely on your needs. The main advantage of a linearly-interpolated table is that it's cheaper, both computationally and memory-wise, than a cubic-interpolated table but it's also less accurate for the same table size. Also, linear interpolation does not preserve the continuity of the interpolated function's derivative. If that's important to you, you should use a cubic-interpolated table.
+
+As a useful example in itself, the package also provides the `CubicTrigTable` type, which implements look-up tables for both `sin(x)` and `cos(x)`.
+
+Lastly, for a mathematical description of the details involved in building these tables, you may want to take a look at [Designing and building efficient look-up tables](./lookup_tables.pdf).
+
+---
+
+##### (2020)-(**Math**) [LinearLookupTable](https://github.com/wltrup/LinearLookupTable)
+![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/LinearLookupTable)
+![GitHub](https://img.shields.io/github/license/wltrup/LinearLookupTable)
+
+**LinearLookupTable** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  that efficiently implements a generic (in the Swift sense) *linearly*-interpolated and dynamically-sampled look-up table: given a function `f(x)` and its derivative `f'(x)`, a table is built that stores values of `x` and `f(x)` at specific points in some interval `[a,b]` provided by the client code. The derivative is necessary to dynamically determine  where to sample `f(x)` for maximum efficiency and accuracy.
+
+For a *cubic*-interpolated version of this package, head to [CubicLookupTable](https://github.com/wltrup/CubicLookupTable).
+
+Which one should you choose to use? That depends entirely on your needs. The main advantage of a linearly-interpolated table is that it's cheaper, both computationally and memory-wise, than a cubic-interpolated table but it's also less accurate for the same table size. Also, linear interpolation does not preserve the continuity of the interpolated function's derivative. If that's important to you, you should use a cubic-interpolated table.
+
+As a useful example in itself, the package also provides the `LinearTrigTable` type, which implements look-up tables for both `sin(x)` and `cos(x)`.
 
 Lastly, for a mathematical description of the details involved in building these tables, you may want to take a look at [Designing and building efficient look-up tables](./lookup_tables.pdf).
 
