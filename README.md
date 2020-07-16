@@ -14,7 +14,7 @@ This repo collects in one place references to all my open-source contributions t
 
 ### (2020)-(**SwiftUI**) [Animated Tab Bar](https://github.com/wltrup/TabBarExample) ([top](https://github.com/wltrup/WTOpenSource#swiftui-top))
 
-![demo](https://github.com/wltrup/WTOpenSource/blob/master/TabBar.gif)
+![demo](https://github.com/wltrup/WTOpenSource/blob/master/gifs/TabBar.gif)
 
 ---
 
@@ -462,12 +462,12 @@ using `CGVector`, you'll definitely love this library.
 ### (2016) [WTOnlineLinearRegression demo app](https://github.com/wltrup/iOS-Swift-WTOnlineLinearRegressionDemo) ([top](https://github.com/wltrup/WTOpenSource#ios-demo-apps-top))
 An app showing the [`WTOnlineLinearRegression`](https://github.com/wltrup/Swift-WTOnlineLinearRegression) library.
 
-![demo](https://github.com/wltrup/WTOpenSource/blob/master/LinearRegressionDemo.gif)
+![demo](https://github.com/wltrup/WTOpenSource/blob/master/gifs/LinearRegressionDemo.gif)
 
 ### (2016) [Kaleidoscope](https://github.com/wltrup/iOS-Swift-Kaleidoscope) ([top](https://github.com/wltrup/WTOpenSource#ios-demo-apps-top))
 A simulation of a [**kaleidoscope**](https://en.wikipedia.org/wiki/Kaleidoscope), using `UIKit Dynamics`. Something I wrote in a few days when I was bored.
 
-![demo](https://github.com/wltrup/WTOpenSource/blob/master/KalDemo.gif)
+![demo](https://github.com/wltrup/WTOpenSource/blob/master/gifs/KalDemo.gif)
 
 ---
 
