@@ -8,11 +8,11 @@ This repo collects in one place references to all my open-source contributions t
 * [iOS demo apps](https://github.com/wltrup/WTOpenSource#ios-demo-apps-top)
 * [Deprecated projects](https://github.com/wltrup/WTOpenSource#deprecated-projects-top)
 
-## SwiftUI ([top](https://github.com/wltrup/WTOpenSource))
+## SwiftUI ([top](https://github.com/wltrup/WTOpenSource#wtOpenSource))
 
 ### (2020)-(**SwiftUI**) [Animated Tab Bar](https://github.com/wltrup/TabBarExample)
 
-## General-purpose libraries ([top](https://github.com/wltrup/WTOpenSource))
+## General-purpose libraries ([top](https://github.com/wltrup/WTOpenSource#wtOpenSource))
 
 ### (2020)-(**Math**) [CubicLookupTable](https://github.com/wltrup/CubicLookupTable)
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
@@ -449,7 +449,7 @@ snapshots of the results of the regression at the time the items were added to, 
 A collection of useful additions to `CGGradient`, `CGPoint` and, especially, `CGVector`. If you write 2d games
 using `CGVector`, you'll definitely love this library.
 
-## iOS demo apps ([top](https://github.com/wltrup/WTOpenSource))
+## iOS demo apps ([top](https://github.com/wltrup/WTOpenSource#wtOpenSource))
 
 ### (2016) [WTOnlineLinearRegression demo app](https://github.com/wltrup/iOS-Swift-WTOnlineLinearRegressionDemo)
 An app showing the [`WTOnlineLinearRegression`](https://github.com/wltrup/Swift-WTOnlineLinearRegression) library.
@@ -461,7 +461,7 @@ A simulation of a [**kaleidoscope**](https://en.wikipedia.org/wiki/Kaleidoscope)
 
 ![demo](https://github.com/wltrup/WTOpenSource/blob/master/KalDemo.gif)
 
-## Deprecated projects ([top](https://github.com/wltrup/WTOpenSource))
+## Deprecated projects ([top](https://github.com/wltrup/WTOpenSource#wtOpenSource))
 
 ### (2017) [WTUniquePrimitiveType](https://github.com/wltrup/Swift-WTUniquePrimitiveType) - **DEPRECATED**
 [![CI Status](http://img.shields.io/travis/wltrup/Swift-WTUniquePrimitiveType.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTUniquePrimitiveType)
