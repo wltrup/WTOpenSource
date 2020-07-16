@@ -12,7 +12,7 @@ This repo collects in one place references to all my open-source contributions t
 
 ## SwiftUI ([top](https://github.com/wltrup/WTOpenSource#wtOpenSource))
 
-### (2020)-(**SwiftUI**) [Animated Tab Bar](https://github.com/wltrup/TabBarExample) ([top](https://github.com/wltrup/WTOpenSource#swiftui-top))
+### (2020)-(**SwiftUI**) [Animated Tab Bar](https://github.com/wltrup/SwiftUI-TabBarExample) ([top](https://github.com/wltrup/WTOpenSource#swiftui-top))
 
 ![demo](https://github.com/wltrup/WTOpenSource/blob/master/gifs/TabBar.gif)
 
