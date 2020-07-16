@@ -1,6 +1,17 @@
 # WTOpenSource
 This repo collects in one place references to all my open-source contributions to iOS development.
 
+## Main Sections
+
+* [SwiftUI](https://github.com/wltrup/WTOpenSource#swiftui)
+* [SwiftUI](https://github.com/wltrup/WTOpenSource#general-purpose-libraries)
+* [SwiftUI](https://github.com/wltrup/WTOpenSource#ios-demo-apps)
+* [SwiftUI](https://github.com/wltrup/WTOpenSource#deprecated-projects)
+
+## SwiftUI
+
+##### (2020)-(**SwiftUI**) [Animated Tab Bar](https://github.com/wltrup/TabBarExample)
+
 ## General-purpose libraries
 
 ##### (2020)-(**Math**) [CubicLookupTable](https://github.com/wltrup/CubicLookupTable)
