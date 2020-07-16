@@ -10,13 +10,13 @@ This repo collects in one place references to all my open-source contributions t
 
 ## SwiftUI ([top](https://github.com/wltrup/WTOpenSource#wtOpenSource))
 
-### (2020)-(**SwiftUI**) [Animated Tab Bar](https://github.com/wltrup/TabBarExample)
+### (2020)-(**SwiftUI**) [Animated Tab Bar](https://github.com/wltrup/TabBarExample) ([top](https://github.com/wltrup/WTOpenSource#swiftui-top))
 
 ![demo](https://github.com/wltrup/WTOpenSource/blob/master/TabBar.gif)
 
 ## General-purpose libraries ([top](https://github.com/wltrup/WTOpenSource#wtOpenSource))
 
-### (2020)-(**Math**) [CubicLookupTable](https://github.com/wltrup/CubicLookupTable)
+### (2020)-(**Math**) [CubicLookupTable](https://github.com/wltrup/CubicLookupTable) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -35,7 +35,7 @@ Lastly, for a mathematical description of the details involved in building these
 
 ---
 
-### (2020)-(**Math**) [LinearLookupTable](https://github.com/wltrup/LinearLookupTable)
+### (2020)-(**Math**) [LinearLookupTable](https://github.com/wltrup/LinearLookupTable) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -54,7 +54,7 @@ Lastly, for a mathematical description of the details involved in building these
 
 ---
 
-### (2020)-(**Foundation**) [RandomAccessCollectionBinarySearch](https://github.com/wltrup/RandomAccessCollectionBinarySearch)
+### (2020)-(**Foundation**) [RandomAccessCollectionBinarySearch](https://github.com/wltrup/RandomAccessCollectionBinarySearch) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -67,7 +67,7 @@ In particular, in addition to the "normal" binary search, the package provides a
 
 ---
 
-### (2020)-(**UI**) [TabularView](https://github.com/wltrup/TabularView) and [TabularViewDemo](https://github.com/wltrup/TabularViewDemo)
+### (2020)-(**UI**) [TabularView](https://github.com/wltrup/TabularView) and [TabularViewDemo](https://github.com/wltrup/TabularViewDemo) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS/iPadOS%2013%20-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.2-orange.svg)](https://swift.org)
@@ -88,7 +88,7 @@ The design philosophy is inspired heavily by how `UICollectionView` works. There
 
 ---
 
-### (2019)-(**Math**) [BiasedDie](https://github.com/wltrup/BiasedDie)
+### (2019)-(**Math**) [BiasedDie](https://github.com/wltrup/BiasedDie) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -103,7 +103,7 @@ The package lets you initialise the biased die in multiple ways, depending on th
 
 ---
 
-### (2019)-(**Math**) [Combinatorics](https://github.com/wltrup/Combinatorics)
+### (2019)-(**Math**) [Combinatorics](https://github.com/wltrup/Combinatorics) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -114,7 +114,7 @@ The package lets you initialise the biased die in multiple ways, depending on th
 
 ---
 
-### (2019)-(**Math**) [NumberTheory](https://github.com/wltrup/NumberTheory)
+### (2019)-(**Math**) [NumberTheory](https://github.com/wltrup/NumberTheory) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -125,7 +125,7 @@ The package lets you initialise the biased die in multiple ways, depending on th
 
 ---
 
-### (2019)-(**Foundation**) [ArrayTransposition](https://github.com/wltrup/ArrayTransposition)
+### (2019)-(**Foundation**) [ArrayTransposition](https://github.com/wltrup/ArrayTransposition) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -136,7 +136,7 @@ The package lets you initialise the biased die in multiple ways, depending on th
 
 ---
 
-### (2019)-(**Foundation**) [StringFormatting](https://github.com/wltrup/StringFormatting)
+### (2019)-(**Foundation**) [StringFormatting](https://github.com/wltrup/StringFormatting) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -147,7 +147,7 @@ The package lets you initialise the biased die in multiple ways, depending on th
 
 ---
 
-### (2019)-(**Foundation**) [BinaryIntegerFormatting](https://github.com/wltrup/BinaryIntegerFormatting)
+### (2019)-(**Foundation**) [BinaryIntegerFormatting](https://github.com/wltrup/BinaryIntegerFormatting) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -160,7 +160,7 @@ Ordinarily, one should use `NumberFormatter` to format numbers but I've found us
 
 ---
 
-### (2019)-(**Foundation** | **Experimental**) [NumericScalar](https://github.com/wltrup/NumericScalar)
+### (2019)-(**Foundation** | **Experimental**) [NumericScalar](https://github.com/wltrup/NumericScalar) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -177,7 +177,7 @@ Note: This is an *experimental* package.
 
 ---
 
-### (2019)-(**Foundation**) [CollectionSplitting](https://github.com/wltrup/CollectionSplitting)
+### (2019)-(**Foundation**) [CollectionSplitting](https://github.com/wltrup/CollectionSplitting) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -188,7 +188,7 @@ Note: This is an *experimental* package.
 
 ---
 
-### (2019)-(**Foundation**) [CollectionDuplicateRemoval](https://github.com/wltrup/CollectionDuplicateRemoval)
+### (2019)-(**Foundation**) [CollectionDuplicateRemoval](https://github.com/wltrup/CollectionDuplicateRemoval) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -199,7 +199,7 @@ Note: This is an *experimental* package.
 
 ---
 
-### (2019)-(**Foundation**) [CollectionComparable](https://github.com/wltrup/CollectionComparable)
+### (2019)-(**Foundation**) [CollectionComparable](https://github.com/wltrup/CollectionComparable) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -210,7 +210,7 @@ Note: This is an *experimental* package.
 
 ---
 
-### (2019)-(**Foundation**) [CollectionConvenience](https://github.com/wltrup/CollectionConvenience)
+### (2019)-(**Foundation**) [CollectionConvenience](https://github.com/wltrup/CollectionConvenience) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -221,7 +221,7 @@ Note: This is an *experimental* package.
 
 ---
 
-### (2019)-(**Foundation**) [BoolConvenience](https://github.com/wltrup/BoolConvenience)
+### (2019)-(**Foundation**) [BoolConvenience](https://github.com/wltrup/BoolConvenience) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -232,7 +232,7 @@ Note: This is an *experimental* package.
 
 ---
 
-### (2019)-(**Foundation**) [DictionarySorting](https://github.com/wltrup/DictionarySorting)
+### (2019)-(**Foundation**) [DictionarySorting](https://github.com/wltrup/DictionarySorting) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -250,7 +250,7 @@ The package provides several such ```sorted(by:)``` functions, depending on whet
 
 ---
 
-### (2019)-(**Foundation**) [DictionarySlicing](https://github.com/wltrup/DictionarySlicing)
+### (2019)-(**Foundation**) [DictionarySlicing](https://github.com/wltrup/DictionarySlicing) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -261,7 +261,7 @@ The package provides several such ```sorted(by:)``` functions, depending on whet
 
 ---
 
-### (2019)-(**Other**) [SortOrder](https://github.com/wltrup/SortOrder)
+### (2019)-(**Other**) [SortOrder](https://github.com/wltrup/SortOrder) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -272,7 +272,7 @@ The package provides several such ```sorted(by:)``` functions, depending on whet
 
 ---
 
-### (2019)-(**Other**) [JsonSupport](https://github.com/wltrup/JsonSupport)
+### (2019)-(**Other**) [JsonSupport](https://github.com/wltrup/JsonSupport) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -283,7 +283,7 @@ The package provides several such ```sorted(by:)``` functions, depending on whet
 
 ---
 
-### (2019)-(**Other**) [ValueRestriction](https://github.com/wltrup/ValueRestriction)
+### (2019)-(**Other**) [ValueRestriction](https://github.com/wltrup/ValueRestriction) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -294,7 +294,7 @@ The package provides several such ```sorted(by:)``` functions, depending on whet
 
 ---
 
-### (2019)-(**Other**) [OperationResult](https://github.com/wltrup/OperationResult)
+### (2019)-(**Other**) [OperationResult](https://github.com/wltrup/OperationResult) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -307,7 +307,7 @@ One neat use for this type is when considering a long sequence of numerical oper
 
 ---
 
-### (2019)-(**Other**) [Counter](https://github.com/wltrup/Counter)
+### (2019)-(**Other**) [Counter](https://github.com/wltrup/Counter) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -318,7 +318,7 @@ One neat use for this type is when considering a long sequence of numerical oper
 
 ---
 
-### (2019)-(**Other**) [Either](https://github.com/wltrup/Either)
+### (2019)-(**Other**) [Either](https://github.com/wltrup/Either) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2011%20%7C%20tvOS%2011%20%7C%20watchOS%205%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -329,7 +329,7 @@ One neat use for this type is when considering a long sequence of numerical oper
 
 ---
 
-### (2019)-(**Other**) [BinaryChoice](https://github.com/wltrup/BinaryChoice)
+### (2019)-(**Other**) [BinaryChoice](https://github.com/wltrup/BinaryChoice) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -340,7 +340,7 @@ One neat use for this type is when considering a long sequence of numerical oper
 
 ---
 
-### (2019)-(**UI**) [UIViewPreview](https://github.com/wltrup/UIViewPreview)
+### (2019)-(**UI**) [UIViewPreview](https://github.com/wltrup/UIViewPreview) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2013%20%7C%20tvOS%2013%20%7C%20watchOS%206%20%7C%20macOS%2010.15-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
@@ -351,7 +351,7 @@ One neat use for this type is when considering a long sequence of numerical oper
 
 ---
 
-### (2019)-(**UI**) [ColorExtensions](https://github.com/wltrup/ColorExtensions)
+### (2019)-(**UI**) [ColorExtensions](https://github.com/wltrup/ColorExtensions) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%205-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
@@ -362,7 +362,7 @@ One neat use for this type is when considering a long sequence of numerical oper
 
 ---
 
-### (2019)-(**UI**) [Assets](https://github.com/wltrup/Assets) and [AssetsPre13](https://github.com/wltrup/AssetsPre13)
+### (2019)-(**UI**) [Assets](https://github.com/wltrup/Assets) and [AssetsPre13](https://github.com/wltrup/AssetsPre13) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2013-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
@@ -379,7 +379,7 @@ One neat use for this type is when considering a long sequence of numerical oper
 
 ---
 
-### (2019)-(**UI**) [AssetCatalogAware](https://github.com/wltrup/AssetCatalogAware) and [AssetCatalogAwarePre13](https://github.com/wltrup/AssetCatalogAwarePre13)
+### (2019)-(**UI**) [AssetCatalogAware](https://github.com/wltrup/AssetCatalogAware) and [AssetCatalogAwarePre13](https://github.com/wltrup/AssetCatalogAwarePre13) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2013%20%7C%20tvOS%2013%20%7C%20watchOS%206-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
@@ -396,7 +396,7 @@ One neat use for this type is when considering a long sequence of numerical oper
 
 ---
 
-### (2017)-(**UI**) [DrawerKit](https://github.com/Babylonpartners/DrawerKit)
+### (2017)-(**UI**) [DrawerKit](https://github.com/Babylonpartners/DrawerKit) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 [![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Version](https://img.shields.io/cocoapods/v/DrawerKit.svg?style=flat)](http://cocoapods.org/pods/DrawerKit)
 [![Platform](https://img.shields.io/cocoapods/p/DrawerKit.svg?style=flat)](http://cocoapods.org/pods/DrawerKit)
@@ -411,7 +411,7 @@ as part of a much bigger project we're working on at [Babylon](https://github.co
 
 ---
 
-### (2017)-(**UI**) [WTAutoLayoutExtensions](https://github.com/wltrup/iOS-Swift-WTAutoLayoutExtensions)
+### (2017)-(**UI**) [WTAutoLayoutExtensions](https://github.com/wltrup/iOS-Swift-WTAutoLayoutExtensions) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 [![CI Status](http://img.shields.io/travis/wltrup/iOS-Swift-WTAutoLayoutExtensions.svg?style=flat)](https://travis-ci.org/iOS-Swift-wltrup/WTAutoLayoutExtensions)
 [![Version](https://img.shields.io/cocoapods/v/WTAutoLayoutExtensions.svg?style=flat)](http://cocoapods.org/pods/WTAutoLayoutExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTAutoLayoutExtensions.svg?style=flat)](https://developer.apple.com)
@@ -423,12 +423,12 @@ Extensions to `UIView` and `UILayoutGuide` to make it simpler and more natural t
 
 ---
 
-### (2016) [Typed Notifications](https://github.com/wltrup/Swift-Typed-Notifications)
+### (2016) [Typed Notifications](https://github.com/wltrup/Swift-Typed-Notifications) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 Not really a library on its own but merely an idea or suggestion on how to handle notifications, especially custom ones, in a more type-safe way.
 
 ---
 
-### (2016)-(**Math**) [WTOnlineLinearRegression](https://github.com/wltrup/Swift-WTOnlineLinearRegression)
+### (2016)-(**Math**) [WTOnlineLinearRegression](https://github.com/wltrup/Swift-WTOnlineLinearRegression) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 [![CI Status](http://img.shields.io/travis/wltrup/Swift-WTOnlineLinearRegression.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTOnlineLinearRegression)
 [![Version](https://img.shields.io/cocoapods/v/WTOnlineLinearRegression.svg?style=flat)](http://cocoapods.org/pods/WTOnlineLinearRegression)
 [![Platform](https://img.shields.io/cocoapods/p/WTOnlineLinearRegression.svg?style=flat)](http://cocoapods.org/pods/WTOnlineLinearRegression)
@@ -442,7 +442,7 @@ snapshots of the results of the regression at the time the items were added to, 
 
 ---
 
-### (2016)-(**UI**) [WTCoreGraphicsExtensions](https://github.com/wltrup/Swift-WTCoreGraphicsExtensions)
+### (2016)-(**UI**) [WTCoreGraphicsExtensions](https://github.com/wltrup/Swift-WTCoreGraphicsExtensions) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 [![CI Status](http://img.shields.io/travis/wltrup/Swift-WTCoreGraphicsExtensions.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTCoreGraphicsExtensions)
 [![Version](https://img.shields.io/cocoapods/v/WTCoreGraphicsExtensions.svg?style=flat)](http://cocoapods.org/pods/WTCoreGraphicsExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTCoreGraphicsExtensions.svg?style=flat)](http://cocoapods.org/pods/WTCoreGraphicsExtensions)
@@ -453,19 +453,19 @@ using `CGVector`, you'll definitely love this library.
 
 ## iOS demo apps ([top](https://github.com/wltrup/WTOpenSource#wtOpenSource))
 
-### (2016) [WTOnlineLinearRegression demo app](https://github.com/wltrup/iOS-Swift-WTOnlineLinearRegressionDemo)
+### (2016) [WTOnlineLinearRegression demo ([top](https://github.com/wltrup/WTOpenSource#ios-demo-apps-top)) app](https://github.com/wltrup/iOS-Swift-WTOnlineLinearRegressionDemo)
 An app showing the [`WTOnlineLinearRegression`](https://github.com/wltrup/Swift-WTOnlineLinearRegression) library.
 
 ![demo](https://github.com/wltrup/WTOpenSource/blob/master/LinearRegressionDemo.gif)
 
-### (2016) [Kaleidoscope](https://github.com/wltrup/iOS-Swift-Kaleidoscope)
+### (2016) [Kaleidoscope](https://github.com/wltrup/iOS-Swift-Kaleidoscope) ([top](https://github.com/wltrup/WTOpenSource#ios-demo-apps-top))
 A simulation of a [**kaleidoscope**](https://en.wikipedia.org/wiki/Kaleidoscope), using `UIKit Dynamics`. Something I wrote in a few days when I was bored.
 
 ![demo](https://github.com/wltrup/WTOpenSource/blob/master/KalDemo.gif)
 
 ## Deprecated projects ([top](https://github.com/wltrup/WTOpenSource#wtOpenSource))
 
-### (2017) [WTUniquePrimitiveType](https://github.com/wltrup/Swift-WTUniquePrimitiveType) - **DEPRECATED**
+### (2017) [WTUniquePrimitiveType](https://github.com/wltrup/Swift-WTUniquePrimitiveType) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects))
 [![CI Status](http://img.shields.io/travis/wltrup/Swift-WTUniquePrimitiveType.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTUniquePrimitiveType)
 [![Version](https://img.shields.io/cocoapods/v/WTUniquePrimitiveType.svg?style=flat)](http://cocoapods.org/pods/WTUniquePrimitiveType)
 [![Platform](https://img.shields.io/cocoapods/p/WTUniquePrimitiveType.svg?style=flat)](http://cocoapods.org/pods/WTUniquePrimitiveType)
@@ -479,7 +479,7 @@ A library to allow you to create distinct types based on the same primitive valu
 
 ---
 
-### (2016-2017) [WTUIColorExtensions](https://github.com/wltrup/iOS-Swift-WTUIColorExtensions) - **DEPRECATED**
+### (2016-2017) [WTUIColorExtensions](https://github.com/wltrup/iOS-Swift-WTUIColorExtensions) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects))
 [![CI Status](http://img.shields.io/travis/wltrup/iOS-Swift-WTUIColorExtensions.svg?style=flat)](https://travis-ci.org/wltrup/iOS-Swift-WTUIColorExtensions)
 [![Version](https://img.shields.io/cocoapods/v/WTUIColorExtensions.svg?style=flat)](http://cocoapods.org/pods/WTUIColorExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTUIColorExtensions.svg?style=flat)](http://cocoapods.org/pods/WTUIColorExtensions)
@@ -494,7 +494,7 @@ As of 2020.02.21, this project is deprecated and is replaced by [ColorExtensions
 
 ---
 
-### (2016) [WTBinaryFloatingPointExtensions](https://github.com/wltrup/Swift-WTBinaryFloatingPointExtensions) - **DEPRECATED**
+### (2016) [WTBinaryFloatingPointExtensions](https://github.com/wltrup/Swift-WTBinaryFloatingPointExtensions) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects))
 [![CI Status](http://img.shields.io/travis/wltrup/Swift-WTBinaryFloatingPointExtensions.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTBinaryFloatingPointExtensions)
 [![Version](https://img.shields.io/cocoapods/v/WTBinaryFloatingPointExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBinaryFloatingPointExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTBinaryFloatingPointExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBinaryFloatingPointExtensions)
@@ -506,7 +506,7 @@ An extension to all types conforming to the `BinaryFloatingPoint` protocol, addi
 
 ---
 
-### (2016) [WTIntExtensions](https://github.com/wltrup/Swift-WTIntExtensions) - **DEPRECATED**
+### (2016) [WTIntExtensions](https://github.com/wltrup/Swift-WTIntExtensions) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects))
 [![CI Status](http://img.shields.io/travis/wltrup/Swift-WTIntExtensions.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTIntExtensions)
 [![Version](https://img.shields.io/cocoapods/v/WTIntExtensions.svg?style=flat)](http://cocoapods.org/pods/WTIntExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTIntExtensions.svg?style=flat)](http://cocoapods.org/pods/WTIntExtensions)
@@ -518,7 +518,7 @@ An extension to `Int` to generate uniformly-distributed pseudo-random integers.
 
 ---
 
-### (2016) [WTBoolExtensions](https://github.com/wltrup/Swift-WTBoolExtensions) - **DEPRECATED**
+### (2016) [WTBoolExtensions](https://github.com/wltrup/Swift-WTBoolExtensions) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects))
 [![CI Status](http://img.shields.io/travis/wltrup/Swift-WTBoolExtensions.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTBoolExtensions)
 [![Version](https://img.shields.io/cocoapods/v/WTBoolExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBoolExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTBoolExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBoolExtensions)
@@ -530,13 +530,13 @@ An extension to `Bool` adding a method to generate uniformly-distributed pseudo-
 
 ---
 
-### (2015) [Circular Progress View](https://github.com/wltrup/iOS-Swift-Circular-Progress-View) - **DEPRECATED**
+### (2015) [Circular Progress View](https://github.com/wltrup/iOS-Swift-Circular-Progress-View) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects))
 A fully customisable `Swift` class for a progress view similar to what the _Apple Watch_ has.
 This is probably still useful as a learning reference but not for actual use in an app.
 
 ---
 
-### (2014) [CGExtensions](https://github.com/wltrup/iOS-Swift-CGExtensions) - **DEPRECATED**
+### (2014) [CGExtensions](https://github.com/wltrup/iOS-Swift-CGExtensions) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects))
 A `Swift` collection of useful extensions to `CGFloat`, `CGPoint`, and `CGVector`, plus test suites. If you need 2-dimensional vectors then you'll want this.
 
 This library has been deprecated and replaced by separate libraries compatible with Swift 3.0. Please refer to the more recent ones listed above.
