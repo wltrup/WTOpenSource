@@ -453,7 +453,7 @@ using `CGVector`, you'll definitely love this library.
 
 ## iOS demo apps ([top](https://github.com/wltrup/WTOpenSource#wtOpenSource))
 
-### (2016) [WTOnlineLinearRegression demo ([top](https://github.com/wltrup/WTOpenSource#ios-demo-apps-top)) app](https://github.com/wltrup/iOS-Swift-WTOnlineLinearRegressionDemo)
+### (2016) [WTOnlineLinearRegression demo app](https://github.com/wltrup/iOS-Swift-WTOnlineLinearRegressionDemo) ([top](https://github.com/wltrup/WTOpenSource#ios-demo-apps-top))
 An app showing the [`WTOnlineLinearRegression`](https://github.com/wltrup/Swift-WTOnlineLinearRegression) library.
 
 ![demo](https://github.com/wltrup/WTOpenSource/blob/master/LinearRegressionDemo.gif)
@@ -465,7 +465,7 @@ A simulation of a [**kaleidoscope**](https://en.wikipedia.org/wiki/Kaleidoscope)
 
 ## Deprecated projects ([top](https://github.com/wltrup/WTOpenSource#wtOpenSource))
 
-### (2017) [WTUniquePrimitiveType](https://github.com/wltrup/Swift-WTUniquePrimitiveType) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects))
+### (2017) [WTUniquePrimitiveType](https://github.com/wltrup/Swift-WTUniquePrimitiveType) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects-top))
 [![CI Status](http://img.shields.io/travis/wltrup/Swift-WTUniquePrimitiveType.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTUniquePrimitiveType)
 [![Version](https://img.shields.io/cocoapods/v/WTUniquePrimitiveType.svg?style=flat)](http://cocoapods.org/pods/WTUniquePrimitiveType)
 [![Platform](https://img.shields.io/cocoapods/p/WTUniquePrimitiveType.svg?style=flat)](http://cocoapods.org/pods/WTUniquePrimitiveType)
@@ -479,7 +479,7 @@ A library to allow you to create distinct types based on the same primitive valu
 
 ---
 
-### (2016-2017) [WTUIColorExtensions](https://github.com/wltrup/iOS-Swift-WTUIColorExtensions) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects))
+### (2016-2017) [WTUIColorExtensions](https://github.com/wltrup/iOS-Swift-WTUIColorExtensions) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects-top))
 [![CI Status](http://img.shields.io/travis/wltrup/iOS-Swift-WTUIColorExtensions.svg?style=flat)](https://travis-ci.org/wltrup/iOS-Swift-WTUIColorExtensions)
 [![Version](https://img.shields.io/cocoapods/v/WTUIColorExtensions.svg?style=flat)](http://cocoapods.org/pods/WTUIColorExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTUIColorExtensions.svg?style=flat)](http://cocoapods.org/pods/WTUIColorExtensions)
@@ -494,7 +494,7 @@ As of 2020.02.21, this project is deprecated and is replaced by [ColorExtensions
 
 ---
 
-### (2016) [WTBinaryFloatingPointExtensions](https://github.com/wltrup/Swift-WTBinaryFloatingPointExtensions) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects))
+### (2016) [WTBinaryFloatingPointExtensions](https://github.com/wltrup/Swift-WTBinaryFloatingPointExtensions) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects-top))
 [![CI Status](http://img.shields.io/travis/wltrup/Swift-WTBinaryFloatingPointExtensions.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTBinaryFloatingPointExtensions)
 [![Version](https://img.shields.io/cocoapods/v/WTBinaryFloatingPointExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBinaryFloatingPointExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTBinaryFloatingPointExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBinaryFloatingPointExtensions)
@@ -506,7 +506,7 @@ An extension to all types conforming to the `BinaryFloatingPoint` protocol, addi
 
 ---
 
-### (2016) [WTIntExtensions](https://github.com/wltrup/Swift-WTIntExtensions) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects))
+### (2016) [WTIntExtensions](https://github.com/wltrup/Swift-WTIntExtensions) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects-top))
 [![CI Status](http://img.shields.io/travis/wltrup/Swift-WTIntExtensions.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTIntExtensions)
 [![Version](https://img.shields.io/cocoapods/v/WTIntExtensions.svg?style=flat)](http://cocoapods.org/pods/WTIntExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTIntExtensions.svg?style=flat)](http://cocoapods.org/pods/WTIntExtensions)
@@ -518,7 +518,7 @@ An extension to `Int` to generate uniformly-distributed pseudo-random integers.
 
 ---
 
-### (2016) [WTBoolExtensions](https://github.com/wltrup/Swift-WTBoolExtensions) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects))
+### (2016) [WTBoolExtensions](https://github.com/wltrup/Swift-WTBoolExtensions) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects-top))
 [![CI Status](http://img.shields.io/travis/wltrup/Swift-WTBoolExtensions.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTBoolExtensions)
 [![Version](https://img.shields.io/cocoapods/v/WTBoolExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBoolExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTBoolExtensions.svg?style=flat)](http://cocoapods.org/pods/WTBoolExtensions)
@@ -530,13 +530,13 @@ An extension to `Bool` adding a method to generate uniformly-distributed pseudo-
 
 ---
 
-### (2015) [Circular Progress View](https://github.com/wltrup/iOS-Swift-Circular-Progress-View) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects))
+### (2015) [Circular Progress View](https://github.com/wltrup/iOS-Swift-Circular-Progress-View) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects-top))
 A fully customisable `Swift` class for a progress view similar to what the _Apple Watch_ has.
 This is probably still useful as a learning reference but not for actual use in an app.
 
 ---
 
-### (2014) [CGExtensions](https://github.com/wltrup/iOS-Swift-CGExtensions) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects))
+### (2014) [CGExtensions](https://github.com/wltrup/iOS-Swift-CGExtensions) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects-top))
 A `Swift` collection of useful extensions to `CGFloat`, `CGPoint`, and `CGVector`, plus test suites. If you need 2-dimensional vectors then you'll want this.
 
 This library has been deprecated and replaced by separate libraries compatible with Swift 3.0. Please refer to the more recent ones listed above.
