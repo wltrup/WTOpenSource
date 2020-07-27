@@ -56,6 +56,21 @@ It doesn't replicate the YouTube video's result *exactly* but the differences ar
 
 ## General-purpose libraries ([top](https://github.com/wltrup/WTOpenSource#wtOpenSource))
 
+### (2020)-(**Graphics** / **SwiftUI**) [AcceleratedCGPoints](https://github.com/wltrup/AcceleratedCGPoints) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
+![](https://img.shields.io/badge/platforms-iOS%2013%20%7C%20tvOS%2013%20%7C%20watchOS%206%20%7C%20macOS%2010.15-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.2-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/AcceleratedCGPoints)
+![GitHub](https://img.shields.io/github/license/wltrup/AcceleratedCGPoints)
+
+**AcceleratedCGPoints** is a Swift Package Manager library for iOS/tvOS (13.0 and above), watchOS (6.0 and above), and macOS (10.15 and above), under Swift 5.2 and above, providing
+
+- a conformance of `CGPoint` to `AdditiveArithmetic`, to support direct arithmetic operations on points
+
+- extensions to `Array`, to support accelerated arithmetic on large `CGPoint` arrays, using Apple's `Accelerate` framework
+
+---
+
 ### (2020)-(**Math**) [CubicLookupTable](https://github.com/wltrup/CubicLookupTable) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
