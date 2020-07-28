@@ -26,7 +26,12 @@ This repo collects in one place references to all my open-source contributions t
 
 ## SwiftUI ([top](https://github.com/wltrup/WTOpenSource#wtOpenSource))
 
-### (2020)-(**SwiftUI**) [Animated Tab Bar 2](https://github.com/wltrup/SwiftUI-TabBarExample2) ([top](https://github.com/wltrup/WTOpenSource#swiftui-top))
+### (2020)-(**SwiftUI**) [Animated Tab Bar](https://github.com/wltrup/SwiftUI-TabBarExample) and [Animated Tab Bar 2](https://github.com/wltrup/SwiftUI-TabBarExample2) ([top](https://github.com/wltrup/WTOpenSource#swiftui-top))
+![](https://img.shields.io/badge/platforms-iOS%2013-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
+![GitHub](https://img.shields.io/github/license/wltrup/SwiftUI-TabBarExample)
+
 ![](https://img.shields.io/badge/platforms-iOS%2013-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
@@ -34,23 +39,13 @@ This repo collects in one place references to all my open-source contributions t
 
 I came across a [YouTube video](https://www.youtube.com/watch?v=SythDf1r4oE) of someone explaining how to create an animated tab bar. The final result is *really nice* but the code is... well, hacky as hacky can be. It lacks structure, it's full of duplicated code, has lots of index-juggling, and calls to `DispatchQueue.main.async()` to avoid changing the view's state while it's being rendered by SwiftUI. In summary, it's the sort of hack that is unacceptable in a professional setting.
 
-So, I decided to give it a go and try to replicate the effect using well-written code that is easy to read and reasonably easy to understand and maintain. The result appears below.
+So, I decided to give it a go and try to replicate the effect using well-written code that is easy to read and reasonably easy to understand and maintain.
 
-It doesn't replicate the YouTube video's result *exactly* but the differences are minor and easily fixable. Basically, I would have to use a shape other than a `Circle` and animate its motion vertically as well as horizontally.
+My first goal was to get a simple animation of tab selection. The result ([Animated Tab Bar](https://github.com/wltrup/SwiftUI-TabBarExample)) is shown in the first animation below.
 
-![demo](gifs/TabBar2.gif)
+I then wanted to do something a bit fancier, and that's the second animation ([Animated Tab Bar 2](https://github.com/wltrup/SwiftUI-TabBarExample2)). It doesn't replicate the YouTube video's result *exactly* but the differences are minor and easily fixable. Basically, I would have to use a shape other than a `Circle` and animate its motion vertically as well as horizontally.
 
----
-
-## SwiftUI ([top](https://github.com/wltrup/WTOpenSource#wtOpenSource))
-
-### (2020)-(**SwiftUI**) [Animated Tab Bar](https://github.com/wltrup/SwiftUI-TabBarExample) ([top](https://github.com/wltrup/WTOpenSource#swiftui-top))
-![](https://img.shields.io/badge/platforms-iOS%2013-red)
-[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
-[![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
-![GitHub](https://img.shields.io/github/license/wltrup/SwiftUI-TabBarExample)
-
-![demo](gifs/TabBar.gif)
+![demo](gifs/TabBar.gif) ![demo](gifs/TabBar2.gif)
 
 ---
 
