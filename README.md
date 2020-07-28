@@ -67,6 +67,12 @@ It doesn't replicate the YouTube video's result *exactly* but the differences ar
 
 - a conformance of `CGPoint` to `AdditiveArithmetic`, to support direct arithmetic operations on points
 
+- a conformance of `CGPoint` to `VectorArithmetic`, to support multiplication of points by scalars
+
+- an extension of `CGPoint`, adding some convenience functions to go along with the conformance to `VectorArithmetic`
+
+- another extension of `CGPoint`, adding support for creating uniformly-distributed pseudo-random points
+
 - extensions to `Array`, to support accelerated arithmetic on large `CGPoint` arrays, using Apple's `Accelerate` framework
 
 ---
