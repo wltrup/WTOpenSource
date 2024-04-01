@@ -1,5 +1,5 @@
 # WTOpenSource
-This repo collects in one place references to all my open-source contributions to iOS development.
+This repo collects in one place references to all my open-source contributions to development in Swift and for Apple platforms.
 
 ## Main Sections
 
@@ -168,6 +168,8 @@ The package lets you initialise the biased die in multiple ways, depending on th
 
 **Combinatorics** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining functions to efficiently compute permutations and combinations of given elements, as well as factorials and binomial coefficients.
 
+(2024) Please note that some of the functionality provided by this library is now available in Apple's [Swift Algorithms](https://github.com/apple/swift-algorithms) package.
+
 ---
 
 ### (2019)-(**Math**) [NumberTheory](https://github.com/wltrup/NumberTheory) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
@@ -178,6 +180,8 @@ The package lets you initialise the biased die in multiple ways, depending on th
 ![GitHub](https://img.shields.io/github/license/wltrup/NumberTheory)
 
 **NumberTheory** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining a few simple functions to perform common number-theoretic operations, such as *gcd* and *lcm*.
+
+(2024) Please note that some of the functionality provided by this library is now available in Apple's [Swift Numerics](https://github.com/apple/swift-numerics/) package.
 
 ---
 
@@ -296,6 +300,7 @@ Note: This is an *experimental* package.
 ![GitHub](https://img.shields.io/github/license/wltrup/DictionarySorting)
 
 **DictionarySorting** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, implementing an extension to `Dictionary` that provides an easy-to-use and ergonomic "swifty" way to sort a dictionary, as easy as:
+
 ```swift
 let data = /* ... */ // a dictionary of some kind
 let sorted = data.sorted(by: .keys(.ascending)) // returns an array of the elements stored in the
@@ -382,17 +387,6 @@ One neat use for this type is when considering a long sequence of numerical oper
 ![GitHub](https://img.shields.io/github/license/wltrup/Either)
 
 **Either** is a Swift package for iOS/tvOS (11.0 and above), watchOS (5.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  implementing a simple `Either` type, with a few built-in and useful properties and protocol conformances.
-
----
-
-### (2019)-(**Other**) [BinaryChoice](https://github.com/wltrup/BinaryChoice) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
-![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
-[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
-[![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/BinaryChoice)
-![GitHub](https://img.shields.io/github/license/wltrup/BinaryChoice)
-
-**BinaryChoice** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining protocols for types that can be initialised from a boolean value and/or can be represented by a boolean value.
 
 ---
 
@@ -524,6 +518,17 @@ A simulation of a [**kaleidoscope**](https://en.wikipedia.org/wiki/Kaleidoscope)
 ---
 
 ## Deprecated projects ([top](https://github.com/wltrup/WTOpenSource#wtOpenSource))
+
+### (2019)-(**Other**) [BinaryChoice](https://github.com/wltrup/BinaryChoice) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects-top))
+![](https://img.shields.io/badge/platforms-iOS%2010%20%7C%20tvOS%2010%20%7C%20watchOS%204%20%7C%20macOS%2010.14-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/BinaryChoice)
+![GitHub](https://img.shields.io/github/license/wltrup/BinaryChoice)
+
+**BinaryChoice** is a Swift package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above, defining protocols for types that can be initialised from a boolean value and/or can be represented by a boolean value.
+
+---
 
 ### (2017) [WTUniquePrimitiveType](https://github.com/wltrup/Swift-WTUniquePrimitiveType) - **DEPRECATED** ([top](https://github.com/wltrup/WTOpenSource#deprecated-projects-top))
 [![CI Status](http://img.shields.io/travis/wltrup/Swift-WTUniquePrimitiveType.svg?style=flat)](https://travis-ci.org/wltrup/Swift-WTUniquePrimitiveType)
