@@ -87,7 +87,7 @@ Which one should you choose to use? That depends entirely on your needs. The mai
 
 As a useful example in itself, the package also provides the `CubicTrigTable` type, which implements look-up tables for both `sin(x)` and `cos(x)`.
 
-Lastly, for a mathematical description of the details involved in building these tables, you may want to take a look at [Designing and building efficient look-up tables](https://github.com/wltrup/CubicLookupTable/lookup_tables.pdf).
+Lastly, for a mathematical description of the details involved in building these tables, you may want to take a look at [Designing and building efficient look-up tables](https://github.com/wltrup/CubicLookupTable/blob/master/lookup_tables.pdf).
 
 ---
 
@@ -106,7 +106,7 @@ Which one should you choose to use? That depends entirely on your needs. The mai
 
 As a useful example in itself, the package also provides the `LinearTrigTable` type, which implements look-up tables for both `sin(x)` and `cos(x)`.
 
-Lastly, for a mathematical description of the details involved in building these tables, you may want to take a look at [Designing and building efficient look-up tables](https://github.com/wltrup/LinearLookupTable/lookup_tables.pdf).
+Lastly, for a mathematical description of the details involved in building these tables, you may want to take a look at [Designing and building efficient look-up tables](https://github.com/wltrup/LinearLookupTable/blob/master/lookup_tables.pdf).
 
 ---
 
