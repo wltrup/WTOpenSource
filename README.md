@@ -51,6 +51,17 @@ I then wanted to do something a bit fancier, and that's the second animation ([A
 
 ## General-purpose libraries ([top](https://github.com/wltrup/WTOpenSource#wtOpenSource))
 
+### (2024)-(**Foundation** / **Graphics**) [SwiftCMasher](https://github.com/wltrup/SwiftCMasher) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
+![](https://img.shields.io/badge/platforms-iOS%2013%20%7C%20tvOS%2013%20%7C%20watchOS%206%20%7C%20macOS%2010.15%20%7C%20visionOS%201.0-red)
+[![Xcode](https://img.shields.io/badge/Xcode-15.3-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.9-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/SwiftCMasher)
+![GitHub](https://img.shields.io/github/license/wltrup/SwiftCMasher)
+
+**SwiftCMasher** is an SPM library for any platform that supports Swift, providing a port of the excellent [CMasher color maps](https://cmasher.readthedocs.io/index.html). Those are color maps particularly suitable for conveying scientific data in an accurate and visually pleasing fashion.
+
+---
+
 ### (2020)-(**Graphics** / **SwiftUI**) [AcceleratedCGPoints](https://github.com/wltrup/AcceleratedCGPoints) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
 ![](https://img.shields.io/badge/platforms-iOS%2013%20%7C%20tvOS%2013%20%7C%20watchOS%206%20%7C%20macOS%2010.15-red)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
