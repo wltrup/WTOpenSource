@@ -60,6 +60,10 @@ I then wanted to do something a bit fancier, and that's the second animation ([A
 
 **SwiftCMasher** is an SPM library for any platform that supports Swift, providing a port of the excellent [CMasher color maps](https://cmasher.readthedocs.io/index.html). Those are color maps particularly suitable for conveying scientific data in an accurate and visually pleasing fashion.
 
+| dark mode | light mode |
+| --------- | ---------- |
+| ![in-dark](pngs/in-dark.png) | ![in-light](pngs/in-light.png) |
+
 ---
 
 ### (2020)-(**Graphics** / **SwiftUI**) [AcceleratedCGPoints](https://github.com/wltrup/AcceleratedCGPoints) ([top](https://github.com/wltrup/WTOpenSource#general-purpose-libraries-top))
@@ -152,6 +156,8 @@ In particular, in addition to the "normal" binary search, the package provides a
 The package supports multiple columns, each with their own optional header and optional footer, indexed by an enumeration type, that *you* define, rather than an integer, so your code is clearer about which column or columns it refers to. There's also built-in support for sorting rows by a selected column.
 
 The design philosophy is inspired heavily by how `UICollectionView` works. There are separate data source and delegate protocols (in fact, *two* delegate protocols, one for layout and another for sorting), and the data source is managed using the new (as of 2019) `UICollectionView` [*Diffable Data Source*](https://developer.apple.com/documentation/uikit/uicollectionviewdiffabledatasource) API.
+
+![TabularViewDemo](pngs/TabularView.png)
 
 ---
 
